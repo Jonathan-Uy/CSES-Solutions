@@ -13,7 +13,7 @@ As of November 26th, the following number of solutions have been completed:
 | Dynamic Programming   |     15/15     |
 | Graph Algorithms      |     18/36     |
 | Range Queries         |     15/16     |
-| Tree Algorithms       |     11/12     |
+| Tree Algorithms       |     12/12     |
 | Mathematics           |     15/21     |
 | String Algorithms     |      1/7      |
 | Additional Problems   |     10/50     |
