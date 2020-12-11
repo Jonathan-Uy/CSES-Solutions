@@ -9,9 +9,9 @@ As of November 26th, the following number of solutions have been completed:
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
 | Introductory Problems |     16/16     |
-| Sorting and Searching |     22/27     |
+| Sorting and Searching |     23/27     |
 | Dynamic Programming   |     15/15     |
-| Graph Algorithms      |     17/36     |
+| Graph Algorithms      |     18/36     |
 | Range Queries         |     15/16     |
 | Tree Algorithms       |     11/12     |
 | Mathematics           |     15/21     |
