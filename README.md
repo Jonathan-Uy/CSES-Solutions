@@ -2,19 +2,21 @@
 
 Original solutions to the CSES Problem Set, written in C++.
 
-The CSES Problem Set is a collection of competitive programming practice problems. The goal of the project is to create a comprehensive high quality problem set for learning competitive programming. The current collection has 200 problems, and new problems will be gradually added. See the problem set [here](https://cses.fi/problemset/).
+The CSES Problem Set is a collection of competitive programming practice problems. The goal of the project is to create a comprehensive high quality problem set for learning competitive programming. In January 2021, the collection was updated to include 300 problems! New problems will be gradually added. See the problem set [here](https://cses.fi/problemset/).
 
-As of December 25th, the following number of solutions have been completed:
+As of January 7th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
-| Introductory Problems |     16/16     |
-| Sorting and Searching |     23/27     |
-| Dynamic Programming   |     15/15     |
+| Introductory Problems |     16/19     |
+| Sorting and Searching |     23/35     |
+| Dynamic Programming   |     15/19     |
 | Graph Algorithms      |     18/36     |
-| Range Queries         |     16/16     |
-| Tree Algorithms       |     12/12     |
-| Mathematics           |     18/21     |
-| String Algorithms     |      1/7      |
-| Additional Problems   |     10/50     |
-| **Total**             |  **129/200**  |
+| Range Queries         |     16/19     |
+| Tree Algorithms       |     12/16     |
+| Mathematics           |     18/31     |
+| String Algorithms     |      1/17     |
+| Geometry              |      0/7      |
+| Advanced Techniques   |      1/24     |
+| Additional Problems   |      9/77     |
+| **Total**             |  **129/300**  |
