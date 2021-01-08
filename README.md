@@ -13,10 +13,10 @@ As of January 8th, the following number of solutions have been completed:
 | Dynamic Programming   |     16/19     |
 | Graph Algorithms      |     18/36     |
 | Range Queries         |     16/19     |
-| Tree Algorithms       |     13/16     |
+| Tree Algorithms       |     14/16     |
 | Mathematics           |     18/31     |
 | String Algorithms     |      1/17     |
 | Geometry              |      2/7      |
 | Advanced Techniques   |      1/24     |
 | Additional Problems   |      9/77     |
-| **Total**             |  **133/300**  |
+| **Total**             |  **134/300**  |
