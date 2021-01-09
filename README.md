@@ -16,7 +16,7 @@ As of January 9th, the following number of solutions have been completed:
 | Tree Algorithms       |     14/16     |
 | Mathematics           |     18/31     |
 | String Algorithms     |      1/17     |
-| Geometry              |      2/7      |
-| Advanced Techniques   |      1/24     |
+| Geometry              |      3/7      |
+| Advanced Techniques   |      2/24     |
 | Additional Problems   |      9/77     |
-| **Total**             |  **135/300**  |
+| **Total**             |  **137/300**  |
