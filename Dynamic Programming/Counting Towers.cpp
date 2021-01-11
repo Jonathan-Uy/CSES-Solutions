@@ -6,7 +6,7 @@ const int maxN = 1e6;
 const ll MOD = 1e9+7;
 
 int T, N;
-ll dp[maxN];
+ll dp[maxN+1];
 
 int main(){
 	dp[1] = 2;
