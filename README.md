@@ -9,7 +9,7 @@ As of January 12th, the following number of solutions have been completed:
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
 | Introductory Problems |     17/19     |
-| Sorting and Searching |     23/35     |
+| Sorting and Searching |     24/35     |
 | Dynamic Programming   |     16/19     |
 | Graph Algorithms      |     18/36     |
 | Range Queries         |     16/19     |
@@ -19,4 +19,4 @@ As of January 12th, the following number of solutions have been completed:
 | Geometry              |      3/7      |
 | Advanced Techniques   |      4/24     |
 | Additional Problems   |      9/77     |
-| **Total**             |  **141/300**  |
+| **Total**             |  **142/300**  |
