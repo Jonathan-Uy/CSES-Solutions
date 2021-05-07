@@ -11,7 +11,7 @@ struct Point {
 	Point operator -(const Point& b) const { return Point{x-b.x, y-b.y}; }
 	ll operator *(const Point& b) const { return (ll) x * b.y - (ll) y * b.x; }
 	void operator +=(const Point& b) { x += b.x; y += b.y; }
-	void operator -=(const Point &b) { x -= b.x; y -= b.y; }
+	void operator -=(const Point& b) { x -= b.x; y -= b.y; }
 	void operator *=(const int k) { x *= k; y *= k; }
 	
 	ll cross(const Point& b, const Point& c) const {

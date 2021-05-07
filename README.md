@@ -10,13 +10,13 @@ As of February 11th, the following number of solutions have been completed:
 |-----------------------|:-------------:|
 | Introductory Problems |     18/19     |
 | Sorting and Searching |     27/35     |
-| Dynamic Programming   |     16/19     |
+| Dynamic Programming   |     17/19     |
 | Graph Algorithms      |     18/36     |
-| Range Queries         |     16/19     |
+| Range Queries         |     18/19     |
 | Tree Algorithms       |     14/16     |
 | Mathematics           |     22/31     |
 | String Algorithms     |      1/17     |
 | Geometry              |      6/7      |
 | Advanced Techniques   |      9/24     |
 | Additional Problems   |      9/77     |
-| **Total**             |  **156/300**  |
+| **Total**             |  **158/300**  |

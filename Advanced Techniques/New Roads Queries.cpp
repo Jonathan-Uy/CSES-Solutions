@@ -5,30 +5,13 @@ const int maxN = 4e5+1;
 
 int N, M, Q, x, y, root, idcounter;
 
-struct Lazy {
-    int a = 1, b = 0;
-    bool empty(){
-        return (a == 1 && b == 0);
-    }
-};
-
 struct Node {
-    Lazy tag;
     bool rev = false;
     Node *c[2] = {nullptr, nullptr}, *p = nullptr;
-    int sz, val, sum, mn, mx, id = ++idcounter;
+    int val, mx, id = ++idcounter;
     
     Node(int v){
-        sz = 1;
-        val = sum = mn = mx = v;
-    }
-    
-    void apply(Lazy other){
-        mn = mn*other.a + other.b;
-        mx = mx*other.a + other.b;
-        val = val*other.a + other.b;
-        sum = sum*other.a + sz*other.b;
-        tag = {tag.a*other.a, tag.b*other.a+other.b};
+        val = mx = v;
     }
     
     void push(){
@@ -38,24 +21,13 @@ struct Node {
             if(c[1])    c[1]->rev ^= true;
             rev = false;
         }
-        if(!tag.empty()){
-            if(c[0])    c[0]->apply(tag);
-            if(c[1])    c[1]->apply(tag);
-            tag = Lazy();
-        }
     }
     
     void pull(){
-        sum = mn = mx = val;
-        sz = 1;
-        for(int i = 0; i < 2; i++){
-            if(c[i]){
-                mn = min(mn, c[i]->mn);
+        mx = val;
+        for(int i = 0; i < 2; i++)
+            if(c[i])
                 mx = max(mx, c[i]->mx);
-                sum += c[i]->sum;
-                sz += c[i]->sz;
-            }
-        }
     }
 } *LCT[maxN];
 
