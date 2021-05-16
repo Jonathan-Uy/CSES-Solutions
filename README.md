@@ -18,5 +18,5 @@ As of May 16th, the following number of solutions have been completed:
 | String Algorithms     |      1/17     |
 | Geometry              |      6/7      |
 | Advanced Techniques   |     10/24     |
-| Additional Problems   |     13/77     |
-| **Total**             |  **170/300**  |
+| Additional Problems   |     14/77     |
+| **Total**             |  **171/300**  |
