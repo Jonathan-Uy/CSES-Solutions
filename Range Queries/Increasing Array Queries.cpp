@@ -50,7 +50,7 @@ void update(int i, int l, int r, ll val){
         assign(i, val);
         return;
     }
-    
+
     push(i);
     update(2*i, l, r, val);
     update(2*i+1, l, r, val);
@@ -70,12 +70,12 @@ int orderOf(int i, int l, int val){
 ll sum(int i, int l, int r){
     if(l > hi[i] || r < lo[i])      return 0;
     if(l <= lo[i] && hi[i] <= r)    return sm[i];
-    
+
     push(i);
     ll left = sum(2*i, l, r);
     ll right = sum(2*i+1, l, r);
     pull(i);
-    
+
     return left+right;
 }
 
@@ -83,13 +83,13 @@ int main(){
     scanf("%d %d", &N, &Q);
     for(int i = 1; i <= N; i++)
         scanf("%lld", &a[i]);
-    
+
     init(1, 1, N);
     for(int q = 0, l, r; q < Q; q++){
         scanf("%d %d", &l, &r);
         queries[l].push_back({r, q});
     }
-    
+
     for(int i = 2; i <= N; i++) a[i] += a[i-1];
     for(int l = N; l >= 1; l--){
         int val = a[l]-a[l-1];
@@ -101,7 +101,7 @@ int main(){
             ans[id] = sum(1, l, r) - (a[r]-a[l-1]);
         }
     }
-    
+
     for(int i = 0; i < Q; i++)
         printf("%lld\n", ans[i]);
 }

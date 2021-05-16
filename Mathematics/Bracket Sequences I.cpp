@@ -28,13 +28,13 @@ int main(){
         numerator = 1;
         for(int i = 1; i <= N; i++)
             numerator = (numerator * i) % MOD;
-        
+
         denominator = 1;
         for(int i = 1; i <= N/2; i++)
             denominator = (denominator * i) % MOD;
         denominator = (denominator * denominator) % MOD;
         denominator = (denominator * (N/2+1)) % MOD;
-        
+
         printf("%lld\n", (numerator*inverse(denominator))%MOD);
     }
 }

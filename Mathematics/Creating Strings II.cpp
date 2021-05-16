@@ -10,35 +10,35 @@ char S[maxN];
 ll fact[maxN], inv[maxN];
 
 ll inverse(ll x){
-	ll res = 1;
-	ll expo = MOD-2;
-	while(expo > 0){
-		if(expo&1)
-			res = (res * x) % MOD;
-		x = (x * x) % MOD;
-		expo >>= 1;
-	}
-	return res;
+    ll res = 1;
+    ll expo = MOD-2;
+    while(expo > 0){
+        if(expo&1)
+            res = (res * x) % MOD;
+        x = (x * x) % MOD;
+        expo >>= 1;
+    }
+    return res;
 }
 
 void init(){
-	fact[0] = inv[0] = 1;
-	for(int i = 1; i < maxN; i++){
-		fact[i] = i * fact[i-1] % MOD;
-		inv[i] = inverse(fact[i]);
-	}
+    fact[0] = inv[0] = 1;
+    for(int i = 1; i < maxN; i++){
+        fact[i] = i * fact[i-1] % MOD;
+        inv[i] = inverse(fact[i]);
+    }
 }
 
 int main(){
-	scanf("%s", S);
-	N = strlen(S);
-	init();
-	
-	for(int i = 0; i < N; i++)
-		freq[(int) (S[i]-'a')]++;
-	
-	ll ans = fact[N];
-	for(int i = 0; i < 26; i++)
-		ans = ans * inv[freq[i]] % MOD;
-	printf("%lld\n", ans);
+    scanf("%s", S);
+    N = strlen(S);
+    init();
+
+    for(int i = 0; i < N; i++)
+        freq[(int) (S[i]-'a')]++;
+
+    ll ans = fact[N];
+    for(int i = 0; i < 26; i++)
+        ans = ans * inv[freq[i]] % MOD;
+    printf("%lld\n", ans);
 }

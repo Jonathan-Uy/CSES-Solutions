@@ -7,11 +7,11 @@ int N;
 ll t, mx, sum;
 
 int main(){
-	scanf("%d", &N);
-	for(int i = 0; i < N; i++){
-		scanf("%lld", &t);
-		mx = max(mx, t);
-		sum += t;
-	}
-	printf("%lld\n", max(sum, 2*mx));
+    scanf("%d", &N);
+    for(int i = 0; i < N; i++){
+        scanf("%lld", &t);
+        mx = max(mx, t);
+        sum += t;
+    }
+    printf("%lld\n", max(sum, 2*mx));
 }

@@ -12,7 +12,7 @@ int main(){
     scanf("%d %d", &N, &K);
     for(int i = 1; i <= N; i++)
         scanf("%d", &x[i]);
-    
+
     int unique = 0;
     int r = 0;
     for(int l = 1; l <= N; l++){
@@ -22,13 +22,13 @@ int main(){
             if(freq[x[r]] == 1)
                 unique++;
         }
-        
+
         ans += (r-l+1);
-        
+
         freq[x[l]]--;
         if(!freq[x[l]])
             unique--;
     }
-    
+
     printf("%lld\n", ans);
 }

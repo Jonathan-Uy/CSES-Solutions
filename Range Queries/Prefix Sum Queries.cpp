@@ -32,7 +32,7 @@ void update(int idx, int val){
     int i = mp[idx];
     sum[i] = val;
     pre[i] = max(0LL, sum[i]);
-    
+
     i >>= 1;
     while(i){
         pull(i);
@@ -43,7 +43,7 @@ void update(int idx, int val){
 pll query(int i, int l, int r){
     if(l > hi[i] || r < lo[i])      return {0, 0};
     if(l <= lo[i] && hi[i] <= r)    return {pre[i], sum[i]};
-    
+
     pll left = query(2*i, l, r);
     pll right = query(2*i+1, l, r);
     return {max(left.first, left.second+right.first), left.second+right.second};

@@ -14,7 +14,7 @@ void print(){
 
 int main(){
     scanf("%d", &N);
-    
+
     print();
     for(int i = 1; i < (1<<N); i++){
         int LSB = __builtin_ffs(i);

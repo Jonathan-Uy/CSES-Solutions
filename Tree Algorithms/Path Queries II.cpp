@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 
 /**
- * Link Cut Tree template
- * Definitely overkill for this problem lol
+ * Link Cut Tree
  */
 
 using namespace std;
@@ -22,12 +21,12 @@ struct Node {
     bool rev = false;
     Node *c[2] = {nullptr, nullptr}, *p = nullptr;
     int sz, val, sum, mn, mx, id = ++idcounter;
-    
+
     Node(int v){
         sz = 1;
         val = sum = mn = mx = v;
     }
-    
+
     void apply(Lazy other){
         mn = mn*other.a + other.b;
         mx = mx*other.a + other.b;
@@ -35,7 +34,7 @@ struct Node {
         sum = sum*other.a + sz*other.b;
         tag = {tag.a*other.a, tag.b*other.a+other.b};
     }
-    
+
     void push(){
         if(rev){
             swap(c[0], c[1]);
@@ -49,7 +48,7 @@ struct Node {
             tag = Lazy();
         }
     }
-    
+
     void pull(){
         sum = mn = mx = val;
         sz = 1;
@@ -148,18 +147,18 @@ int main(){
         scanf("%d %d", &x, &y);
         link(LCT[x], LCT[y]);
     }
-    
+
     root = 1;
     for(int i = 0; i < Q; i++){
         scanf("%d", &k);
         if(k == 1){
-			scanf("%d %d", &x, &y);
-			Node *p = path(LCT[x], LCT[x]);
-			p->apply({0, y});
-		} else if(k == 2){
-			scanf("%d %d", &x, &y);
-			Node *p = path(LCT[x], LCT[y]);
-			printf("%d ", p->mx);
-		}
+            scanf("%d %d", &x, &y);
+            Node *p = path(LCT[x], LCT[x]);
+            p->apply({0, y});
+        } else if(k == 2){
+            scanf("%d %d", &x, &y);
+            Node *p = path(LCT[x], LCT[y]);
+            printf("%d ", p->mx);
+        }
     }
 }

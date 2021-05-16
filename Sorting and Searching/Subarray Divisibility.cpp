@@ -8,17 +8,17 @@ int N, pre, a, freq[maxN];
 ll cnt;
 
 int mod(int x){
-	return (x % N + N) % N;
+    return (x % N + N) % N;
 }
 
 int main(){
-	scanf("%d", &N);
-	freq[0] = 1;
-	for(int i = 0; i < N; i++){
-		scanf("%d", &a);
-		pre = mod(pre+a);
-		cnt += freq[pre];
-		freq[pre]++;
-	}
-	printf("%lld\n", cnt);
+    scanf("%d", &N);
+    freq[0] = 1;
+    for(int i = 0; i < N; i++){
+        scanf("%d", &a);
+        pre = mod(pre+a);
+        cnt += freq[pre];
+        freq[pre]++;
+    }
+    printf("%lld\n", cnt);
 }

@@ -8,17 +8,17 @@ int N;
 ll maxSum, curSum, x[maxN];
 
 int main(){
-	scanf("%d", &N);
-	maxSum = LONG_MIN;
-	for(int i = 0; i < N; i++){
-		scanf("%lld", &x[i]);
-		maxSum = max(maxSum, x[i]);
-	}
-	
-	for(int i = 0; i < N; i++){
-		curSum += x[i];
-		maxSum = max(maxSum, curSum);
-		if(curSum < 0)	curSum = 0;
-	}
-	printf("%lld\n", maxSum);
+    scanf("%d", &N);
+    maxSum = LONG_MIN;
+    for(int i = 0; i < N; i++){
+        scanf("%lld", &x[i]);
+        maxSum = max(maxSum, x[i]);
+    }
+
+    for(int i = 0; i < N; i++){
+        curSum += x[i];
+        maxSum = max(maxSum, curSum);
+        if(curSum < 0)  curSum = 0;
+    }
+    printf("%lld\n", maxSum);
 }

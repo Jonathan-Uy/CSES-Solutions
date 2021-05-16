@@ -9,13 +9,13 @@ int N;
 ll dp[maxN+1];
 
 void init(){
-	dp[2] = 1;
-	for(int i = 3; i <= maxN; i++)
-		dp[i] = (i-1) * (dp[i-1] + dp[i-2]) % MOD;
+    dp[2] = 1;
+    for(int i = 3; i <= maxN; i++)
+        dp[i] = (i-1) * (dp[i-1] + dp[i-2]) % MOD;
 }
 
 int main(){
-	init();
-	scanf("%d", &N);
-	printf("%lld\n", dp[N]);
+    init();
+    scanf("%d", &N);
+    printf("%lld\n", dp[N]);
 }

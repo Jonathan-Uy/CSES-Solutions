@@ -40,7 +40,7 @@ void update(int idx, int val){
 int query(int i, int t, int l, int r){
     if(l > hi[i] || r < lo[i])      return INT_MAX;
     if(l <= lo[i] && hi[i] <= r)    return mn[t][i];
-    
+
     int left = query(2*i, t, l, r);
     int right = query(2*i+1, t, l, r);
     return min(left, right);
