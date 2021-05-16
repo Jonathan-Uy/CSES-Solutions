@@ -9,14 +9,14 @@ int N, X, c;
 ll dp[maxX+1];
 
 int main(){
-	scanf("%d %d", &N, &X);
-	
-	dp[0] = 1;
-	for(int i = 0; i < N; i++){
-		scanf("%d", &c);
-		for(int j = 0; j <= X-c; j++)
-			dp[j+c] = (dp[j+c] + dp[j]) % MOD;
-	}
-	
-	printf("%lld\n", dp[X]);
+    scanf("%d %d", &N, &X);
+
+    dp[0] = 1;
+    for(int i = 0; i < N; i++){
+        scanf("%d", &c);
+        for(int j = 0; j <= X-c; j++)
+            dp[j+c] = (dp[j+c] + dp[j]) % MOD;
+    }
+
+    printf("%lld\n", dp[X]);
 }

@@ -14,7 +14,7 @@ int main(){
     scanf("%d %lld", &N, &X);
     for(int i = 0; i < N; i++)
         scanf("%lld", &w[i]);
-    
+
     dp[0] = {1, 0};
     for(int mask = 1; mask < (1<<N); mask++){
         dp[mask] = {INF, 0};
@@ -31,6 +31,6 @@ int main(){
             }
         }
     }
-    
+
     printf("%d\n", dp[(1<<N)-1].first);
 }

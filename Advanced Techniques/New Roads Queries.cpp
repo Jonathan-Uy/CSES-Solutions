@@ -9,11 +9,11 @@ struct Node {
     bool rev = false;
     Node *c[2] = {nullptr, nullptr}, *p = nullptr;
     int val, mx, id = ++idcounter;
-    
+
     Node(int v){
         val = mx = v;
     }
-    
+
     void push(){
         if(rev){
             swap(c[0], c[1]);
@@ -22,7 +22,7 @@ struct Node {
             rev = false;
         }
     }
-    
+
     void pull(){
         mx = val;
         for(int i = 0; i < 2; i++)
@@ -113,17 +113,17 @@ int main(){
         scanf("%d %d", &x, &y);
         LCT[N+i] = new Node(i);
         if(!connected(LCT[x], LCT[y])){
-			link(LCT[x], LCT[N+i]);
-			link(LCT[y], LCT[N+i]);
-		}
+            link(LCT[x], LCT[N+i]);
+            link(LCT[y], LCT[N+i]);
+        }
     }
-    
+
     root = 1;
     for(int q = 0; q < Q; q++){
         scanf("%d %d", &x, &y);
         if(connected(LCT[x], LCT[y])){
-			Node *p = path(LCT[x], LCT[y]);
-			printf("%d\n", p->mx);
-		} else printf("-1\n");
+            Node *p = path(LCT[x], LCT[y]);
+            printf("%d\n", p->mx);
+        } else printf("-1\n");
     }
 }
