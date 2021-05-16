@@ -9,14 +9,14 @@ As of May 16th, the following number of solutions have been completed:
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
 | Introductory Problems |     18/19     |
-| Sorting and Searching |     29/35     |
+| Sorting and Searching |     30/35     |
 | Dynamic Programming   |     18/19     |
-| Graph Algorithms      |     18/36     |
+| Graph Algorithms      |     19/36     |
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     14/16     |
 | Mathematics           |     22/31     |
 | String Algorithms     |      1/17     |
 | Geometry              |      6/7      |
 | Advanced Techniques   |     10/24     |
-| Additional Problems   |     12/77     |
-| **Total**             |  **167/300**  |
+| Additional Problems   |     13/77     |
+| **Total**             |  **170/300**  |
