@@ -38,8 +38,4 @@ int main(){
     printf("%d\n", (int) bridges.size());
     for(pii P : bridges)
         printf("%d %d\n", P.first, P.second);
-
-    for(int i = 1; i <= N; i++){
-        printf("tin[%d]: %d, low[%d]: %d\n", i, tin[i], i, low[i]);
-    }
 }
