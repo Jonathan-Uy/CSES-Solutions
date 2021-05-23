@@ -1,5 +1,16 @@
 *.exe
 
+Additional Problems/.cph/*
+Dynamic Programming/.cph/*
+Graph Algorithms/.cph/*
+Introductory Problems/.cph/*
+Mathematics/.cph/*
+Range Queries/.cph/*
+Sorting and Searching/.cph/*
+String Algorithms/.cph/*
+Geometry/.cph/*
+Advanced Techniques/.cph/*
+Tree Algorithms/.cph/*
 Additional Problems/*.exe
 Dynamic Programming/*.exe
 Graph Algorithms/*.exe
