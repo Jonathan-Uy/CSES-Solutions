@@ -17,6 +17,6 @@ As of June 15th, the following number of solutions have been completed:
 | Mathematics           |     24/31     |
 | String Algorithms     |      2/17     |
 | Geometry              |      7/7      |
-| Advanced Techniques   |     12/24     |
+| Advanced Techniques   |     13/24     |
 | Additional Problems   |     16/77     |
-| **Total**             |  **188/300**  |
+| **Total**             |  **189/300**  |
