@@ -54,12 +54,9 @@ int main(){
 
     // Should be M+1 nodes in the Euler tour
     // If not, it means the graph was not connected
-    if((int) tour.size() != M+1){
+    if((int) tour.size() != M+1)
         printf("IMPOSSIBLE\n");
-        return 0;
-    }
-
-    // Should be M+1 nodes in the Euler tour
-    for(int i = 0; i <= M; i++)
-        printf("%d%c", tour[i], (" \n")[i==M]);
+    else
+        for(int i = 0; i <= M; i++)
+            printf("%d%c", tour[i], (" \n")[i==M]);
 }
