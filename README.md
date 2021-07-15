@@ -11,7 +11,7 @@ As of July 15th, the following number of solutions have been completed:
 | Introductory Problems |     19/19     |
 | Sorting and Searching |     33/35     |
 | Dynamic Programming   |     18/19     |
-| Graph Algorithms      |     28/36     |
+| Graph Algorithms      |     29/36     |
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     16/16     |
 | Mathematics           |     29/31     |
@@ -19,4 +19,4 @@ As of July 15th, the following number of solutions have been completed:
 | Geometry              |      7/7      |
 | Advanced Techniques   |     13/24     |
 | Additional Problems   |     17/77     |
-| **Total**             |  **201/300**  |
+| **Total**             |  **202/300**  |
