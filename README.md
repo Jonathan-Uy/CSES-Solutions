@@ -1,10 +1,10 @@
 # CSES Solutions
 
-Original solutions to the CSES Problem Set, written in C++.
+Over 200 accepted solutions to the CSES Problem Set, written in C++ by Jonathan Uy [nulltype](https://cses.fi/user/22919).
 
 The CSES Problem Set is a collection of competitive programming practice problems. The goal of the project is to create a comprehensive high quality problem set for learning competitive programming. In January 2021, the collection was updated to include 300 problems! New problems will gradually be added. See the problem set [here](https://cses.fi/problemset/).
 
-As of July 16th, the following number of solutions have been completed:
+As of July 18th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -17,6 +17,6 @@ As of July 16th, the following number of solutions have been completed:
 | Mathematics           |     29/31     |
 | String Algorithms     |      2/17     |
 | Geometry              |      7/7      |
-| Advanced Techniques   |     13/24     |
+| Advanced Techniques   |     14/24     |
 | Additional Problems   |     19/77     |
-| **Total**             |  **208/300**  |
+| **Total**             |  **209/300**  |
