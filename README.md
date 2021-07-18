@@ -28,7 +28,7 @@ As of July 18th, the following number of solutions have been completed:
 1. [Missing Number](/Introductory%20Problems/Missing%20Number.cpp)
 1. [Repetitions](/Introductory%20Problems/Repetitions.cpp)
 1. [Increasing Array](/Introductory%20Problems/Increasing%20Array.cpp)
-1. [Permutations](/Introductory%20Problems/Permutations.cpp)
+1. [Permutations](/Introductory%20Problems/Permutations%20I.cpp)
 1. [Number Spiral](/Introductory%20Problems/Number%20Spiral.cpp)
 1. [Two Knights](/Introductory%20Problems/Two%20Knights.cpp)
 1. [Two Sets](/Introductory%20Problems/Two%20Sets%20I.cpp)
