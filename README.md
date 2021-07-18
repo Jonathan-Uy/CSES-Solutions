@@ -14,9 +14,9 @@ As of July 18th, the following number of solutions have been completed:
 | Graph Algorithms      |     33/36     |
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     16/16     |
-| Mathematics           |     29/31     |
+| Mathematics           |     30/31     |
 | String Algorithms     |      3/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     14/24     |
 | Additional Problems   |     19/77     |
-| **Total**             |  **211/300**  |
+| **Total**             |  **212/300**  |
