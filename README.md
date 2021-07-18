@@ -80,3 +80,25 @@ As of July 18th, the following number of solutions have been completed:
 1. Sliding Cost
 1. [Movie Festival II](/Sorting%20and%20Searching/Movie%20Festival%20II.cpp)
 1. [Maximum Subarray Sum II](/Sorting%20and%20Searching/Maximum%20Subarray%20Sum%20II.cpp)
+
+## Dynamic Programming
+
+1. [Dice Combinations](/Dynamic%20Programming/Dice%20Combinations.cpp)
+1. [Minimizing Coins](/Dynamic%20Programming/Minimizing%20Coins.cpp)
+1. [Coin Combinations I](/Dynamic%20Programming/Coin%20Combinations%20I.cpp)
+1. [Coin Combinations II](/Dynamic%20Programming/Coin%20Combinations%20II.cpp)
+1. [Removing Digits](/Dynamic%20Programming/Removing%20Digits.cpp)
+1. [Grid Paths](/Dynamic%20Programming/Grid%20Paths%20II.cpp)
+1. [Book Shop](/Dynamic%20Programming/Book%20Shop%20I.cpp)
+1. [Array Description](/Dynamic%20Programming/Array%20Description.cpp)
+1. [Counting Towers](/Dynamic%20Programming/Counting%20Towers.cpp)
+1. [Edit Distance](/Dynamic%20Programming/Edit%20Distance.cpp)
+1. [Rectangle Cutting](/Dynamic%20Programming/Rectangle%20Cutting.cpp)
+1. [Money Sums](/Dynamic%20Programming/Money%20Sums.cpp)
+1. [Removal Game](/Dynamic%20Programming/Removal%20Game.cpp)
+1. [Two Sets II](/Dynamic%20Programming/Two%20Sets%20II.cpp)
+1. [Increasing Subsequence](/Dynamic%20Programming/Increasing%20Subsequence.cpp)
+1. [Projects](/Dynamic%20Programming/Projects.cpp)
+1. [Elevator Rides](/Dynamic%20Programming/Elevator%20Rides.cpp)
+1. [Counting Tilings](/Dynamic%20Programming/Counting%20Tilings.cpp)
+1. Counting Numbers
