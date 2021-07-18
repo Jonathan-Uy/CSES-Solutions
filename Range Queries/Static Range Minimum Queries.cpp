@@ -2,7 +2,7 @@
 
 using namespace std;
 const int maxN = 2e5+1;
-const int logN = ceil(log2(maxN))+1;
+const int logN = 19;
 
 int N, Q, a, b, l, k, x[maxN][logN];
 
