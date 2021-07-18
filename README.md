@@ -15,8 +15,8 @@ As of July 18th, the following number of solutions have been completed:
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     16/16     |
 | Mathematics           |     29/31     |
-| String Algorithms     |      2/17     |
+| String Algorithms     |      3/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     14/24     |
 | Additional Problems   |     19/77     |
-| **Total**             |  **210/300**  |
+| **Total**             |  **211/300**  |
