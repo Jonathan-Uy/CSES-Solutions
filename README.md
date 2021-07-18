@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 200 accepted solutions to the CSES Problem Set, written in C++ by Jonathan Uy [nulltype](https://cses.fi/user/22919).
+Over 200 accepted solutions to the CSES Problem Set, written in C++ by Jonathan Uy [(Username: nulltype)](https://cses.fi/user/22919).
 
 The CSES Problem Set is a collection of competitive programming practice problems. The goal of the project is to create a comprehensive high quality problem set for learning competitive programming. In January 2021, the collection was updated to include 300 problems! New problems will gradually be added. See the problem set [here](https://cses.fi/problemset/).
 
