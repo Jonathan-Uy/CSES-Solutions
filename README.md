@@ -4,7 +4,7 @@ Over 200 accepted solutions to the CSES Problem Set, written in C++ by Jonathan 
 
 The CSES Problem Set is a high quality collection of competitive programming practice problems. In January 2021, the collection was updated to include 300 problems, and more may be added in the future. See the problem set [here](https://cses.fi/problemset/).
 
-As of July 18th, the following number of solutions have been completed:
+As of July 20th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -17,9 +17,9 @@ As of July 18th, the following number of solutions have been completed:
 | Mathematics           |     30/31     |
 | String Algorithms     |      3/17     |
 | Geometry              |      7/7      |
-| Advanced Techniques   |     14/24     |
+| Advanced Techniques   |     15/24     |
 | Additional Problems   |     19/77     |
-| **Total**             |  **212/300**  |
+| **Total**             |  **213/300**  |
 
 # Table of Contents
 
@@ -267,7 +267,7 @@ As of July 18th, the following number of solutions have been completed:
 1. Houses and Schools
 1. [Knuth Division](/Advanced%20Techniques/Knuth%20Division.cpp)
 1. [Apples and Bananas](/Advanced%20Techniques/Apples%20and%20Bananas.cpp)
-1. One Bit Positions
+1. [One Bit Positions](/Advanced%20Techniques/One%20Bit%20Positions.cpp)
 1. Signal Processing
 1. [New Roads Queries](/Advanced%20Techniques/New%20Roads%20Queries.cpp)
 1. Dynamic Connectivity
