@@ -18,8 +18,8 @@ As of July 20th, the following number of solutions have been completed:
 | String Algorithms     |      3/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     15/24     |
-| Additional Problems   |     19/77     |
-| **Total**             |  **213/300**  |
+| Additional Problems   |     20/77     |
+| **Total**             |  **214/300**  |
 
 # Table of Contents
 
@@ -277,7 +277,7 @@ As of July 20th, the following number of solutions have been completed:
 
 ## Additional Problems
 
-1. Shortest Subsequence
+1. [Shortest Subsequence](/Additional%20Problems/Shortest%20Subsequence.cpp)
 1. [Counting Bits](/Additional%20Problems/Counting%20Bits.cpp)
 1. [Swap Game](/Additional%20Problems/Swap%20Game.cpp)
 1. Prüfer Code
