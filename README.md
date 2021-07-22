@@ -4,7 +4,7 @@ Over 200 accepted solutions to the CSES Problem Set, written in C++ by Jonathan 
 
 The CSES Problem Set is a high quality collection of competitive programming practice problems. In January 2021, the collection was updated to include 300 problems, and more may be added in the future. See the problem set [here](https://cses.fi/problemset/).
 
-As of July 20th, the following number of solutions have been completed:
+As of July 22th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -18,8 +18,8 @@ As of July 20th, the following number of solutions have been completed:
 | String Algorithms     |      3/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     15/24     |
-| Additional Problems   |     20/77     |
-| **Total**             |  **214/300**  |
+| Additional Problems   |     21/77     |
+| **Total**             |  **215/300**  |
 
 # Table of Contents
 
@@ -300,7 +300,7 @@ As of July 20th, the following number of solutions have been completed:
 1. String Reorder
 1. Stack Weights
 1. Pyramid Array
-1. Increasing Subsequence II
+1. [Increasing Subsequence II](/Additional%20Problems/Increasing%20Subsequence%20II.cpp)
 1. [String Removals](/Additional%20Problems/String%20Removals.cpp)
 1. [Bit Inversions](/Additional%20Problems/Bit%20Inversions.cpp)
 1. [Xor Pyramid](/Additional%20Problems/Xor%20Pyramid.cpp)
