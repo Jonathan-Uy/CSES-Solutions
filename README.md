@@ -4,7 +4,7 @@ Over 200 accepted solutions to the CSES Problem Set, written in C++ by Jonathan 
 
 The CSES Problem Set is a high quality collection of competitive programming practice problems. In January 2021, the collection was updated to include 300 problems, and more may be added in the future. See the problem set [here](https://cses.fi/problemset/).
 
-As of July 22th, the following number of solutions have been completed:
+As of July 26th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -15,11 +15,11 @@ As of July 22th, the following number of solutions have been completed:
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     16/16     |
 | Mathematics           |     30/31     |
-| String Algorithms     |      3/17     |
+| String Algorithms     |      4/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     15/24     |
 | Additional Problems   |     21/77     |
-| **Total**             |  **215/300**  |
+| **Total**             |  **216/300**  |
 
 # Table of Contents
 
@@ -223,7 +223,7 @@ As of July 22th, the following number of solutions have been completed:
 1. [String Matching](/String%20Algorithms/String%20Matching.cpp)
 1. [Finding Borders](/String%20Algorithms/Finding%20Borders.cpp)
 1. Finding Periods
-1. Minimal Rotation
+1. [Minimal Rotation](/String%20Algorithms/Minimal%20Rotation.cpp)
 1. Longest Palindrome
 1. Required Substring
 1. Palindrome Queries
