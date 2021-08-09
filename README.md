@@ -4,7 +4,7 @@ Over 200 accepted solutions to the CSES Problem Set, written in C++ by Jonathan 
 
 The CSES Problem Set is a high quality collection of competitive programming practice problems. In January 2021, the collection was updated to include 300 problems, and more may be added in the future. See the problem set [here](https://cses.fi/problemset/).
 
-As of July 26th, the following number of solutions have been completed:
+As of August 9th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -14,12 +14,12 @@ As of July 26th, the following number of solutions have been completed:
 | Graph Algorithms      |     33/36     |
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     16/16     |
-| Mathematics           |     30/31     |
+| Mathematics           |     31/31     |
 | String Algorithms     |      4/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     15/24     |
 | Additional Problems   |     21/77     |
-| **Total**             |  **216/300**  |
+| **Total**             |  **217/300**  |
 
 # Table of Contents
 
@@ -199,7 +199,7 @@ As of July 26th, the following number of solutions have been completed:
 1. [Distributing Apples](/Mathematics/Distributing%20Apples.cpp)
 1. [Christmas Party](/Mathematics/Christmas%20Party.cpp)
 1. [Bracket Sequences I](/Mathematics/Bracket%20Sequences%20I.cpp)
-1. Bracket Sequences II
+1. [Bracket Sequences II](/Mathematics/Bracket%20Sequences%20II.cpp)
 1. [Counting Necklaces](/Mathematics/Counting%20Necklaces.cpp)
 1. [Counting Grids](/Mathematics/Counting%20Grids.cpp)
 1. [Fibonacci Numbers](/Mathematics/Fibonacci%20Numbers.cpp)
