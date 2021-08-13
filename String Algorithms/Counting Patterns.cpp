@@ -1,14 +1,14 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-const int maxN = 2e5+5;
+const int maxN = 1e5+5;
 
 struct Node {
     int len, link, cnt, firstpos;
     map<char,int> nxt;
 } node[2*maxN];
 
-char S[maxN], T[maxN];
+char S[maxN], T[5*maxN];
 int N, M, K, sz, last;
 
 void extend(char c){
