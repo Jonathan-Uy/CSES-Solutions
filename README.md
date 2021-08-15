@@ -18,8 +18,8 @@ As of August 15th, the following number of solutions have been completed:
 | String Algorithms     |     13/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     15/24     |
-| Additional Problems   |     22/77     |
-| **Total**             |  **227/300**  |
+| Additional Problems   |     23/77     |
+| **Total**             |  **228/300**  |
 
 # Table of Contents
 
@@ -280,7 +280,7 @@ As of August 15th, the following number of solutions have been completed:
 1. [Shortest Subsequence](/Additional%20Problems/Shortest%20Subsequence.cpp)
 1. [Counting Bits](/Additional%20Problems/Counting%20Bits.cpp)
 1. [Swap Game](/Additional%20Problems/Swap%20Game.cpp)
-1. Prüfer Code
+1. [Prüfer Code](/Additional%20Problems/Prufer%20Code.cpp)
 1. [Acyclic Graph Edges](/Additional%20Problems/Acyclic%20Graph%20Edges.cpp)
 1. [Strongly Connected Edges](/Additional%20Problems/Strongly%20Connected%20Edges.cpp)
 1. Even Outdegree Edges
