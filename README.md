@@ -17,9 +17,9 @@ As of August 15th, the following number of solutions have been completed:
 | Mathematics           |     31/31     |
 | String Algorithms     |     13/17     |
 | Geometry              |      7/7      |
-| Advanced Techniques   |     15/24     |
+| Advanced Techniques   |     16/24     |
 | Additional Problems   |     25/77     |
-| **Total**             |  **230/300**  |
+| **Total**             |  **231/300**  |
 
 # Table of Contents
 
@@ -268,7 +268,7 @@ As of August 15th, the following number of solutions have been completed:
 1. [Knuth Division](/Advanced%20Techniques/Knuth%20Division.cpp)
 1. [Apples and Bananas](/Advanced%20Techniques/Apples%20and%20Bananas.cpp)
 1. [One Bit Positions](/Advanced%20Techniques/One%20Bit%20Positions.cpp)
-1. Signal Processing
+1. [Signal Processing](/Advanced%20Techniques/Signal%20Processing.cpp)
 1. [New Roads Queries](/Advanced%20Techniques/New%20Roads%20Queries.cpp)
 1. Dynamic Connectivity
 1. Parcel Delivery
