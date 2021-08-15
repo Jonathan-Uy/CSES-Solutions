@@ -17,9 +17,9 @@ As of August 15th, the following number of solutions have been completed:
 | Mathematics           |     31/31     |
 | String Algorithms     |     13/17     |
 | Geometry              |      7/7      |
-| Advanced Techniques   |     16/24     |
+| Advanced Techniques   |     17/24     |
 | Additional Problems   |     25/77     |
-| **Total**             |  **231/300**  |
+| **Total**             |  **232/300**  |
 
 # Table of Contents
 
@@ -264,7 +264,7 @@ As of August 15th, the following number of solutions have been completed:
 1. Monster Game I
 1. Monster Game II
 1. [Subarray Squares](/Advanced%20Techniques/Subarray%20Squares.cpp)
-1. Houses and Schools
+1. [Houses and Schools](/Advanced%20Techniques/Houses%20and%20Schools.cpp)
 1. [Knuth Division](/Advanced%20Techniques/Knuth%20Division.cpp)
 1. [Apples and Bananas](/Advanced%20Techniques/Apples%20and%20Bananas.cpp)
 1. [One Bit Positions](/Advanced%20Techniques/One%20Bit%20Positions.cpp)
