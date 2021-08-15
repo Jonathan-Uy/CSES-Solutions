@@ -4,7 +4,7 @@ Over 200 accepted solutions to the CSES Problem Set, written in C++ by Jonathan 
 
 The CSES Problem Set is a high quality collection of competitive programming practice problems. In January 2021, the collection was updated to include 300 problems, and more may be added in the future. See the problem set [here](https://cses.fi/problemset/).
 
-As of August 14th, the following number of solutions have been completed:
+As of August 15th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -18,8 +18,8 @@ As of August 14th, the following number of solutions have been completed:
 | String Algorithms     |     13/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     15/24     |
-| Additional Problems   |     21/77     |
-| **Total**             |  **226/300**  |
+| Additional Problems   |     22/77     |
+| **Total**             |  **227/300**  |
 
 # Table of Contents
 
@@ -287,7 +287,7 @@ As of August 14th, the following number of solutions have been completed:
 1. [Multiplication Table](/Additional%20Problems/Multiplication%20Table.cpp)
 1. [Advertisement](/Additional%20Problems/Advertisement.cpp)
 1. Special Substrings
-1. Permutation Inversions
+1. [Permutation Inversions](/Additional%20Problems/Permutation%20Inversions.cpp)
 1. [Maximum Xor Subarray](/Additional%20Problems/Maximum%20Xor%20Subarray.cpp)
 1. Movie Festival Queries
 1. Chess Tournament
