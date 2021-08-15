@@ -18,8 +18,8 @@ As of August 15th, the following number of solutions have been completed:
 | String Algorithms     |     13/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     15/24     |
-| Additional Problems   |     23/77     |
-| **Total**             |  **228/300**  |
+| Additional Problems   |     24/77     |
+| **Total**             |  **229/300**  |
 
 # Table of Contents
 
@@ -292,7 +292,7 @@ As of August 15th, the following number of solutions have been completed:
 1. Movie Festival Queries
 1. Chess Tournament
 1. Tree Traversals
-1. Network Renovation
+1. [Network Renovation](/Additional%20Problems/Network%20Renovation.cpp)
 1. [Graph Girth](/Additional%20Problems/Graph%20Girth.cpp)
 1. [Intersection Points](/Additional%20Problems/Intersection%20Points.cpp)
 1. Inverse Inversions
