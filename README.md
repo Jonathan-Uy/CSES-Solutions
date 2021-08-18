@@ -4,7 +4,7 @@ Over 200 accepted solutions to the CSES Problem Set, written in C++ by Jonathan 
 
 The CSES Problem Set is a high quality collection of competitive programming practice problems. In January 2021, the collection was updated to include 300 problems, and more may be added in the future. See the problem set [here](https://cses.fi/problemset/).
 
-As of August 15th, the following number of solutions have been completed:
+As of August 18th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -17,9 +17,9 @@ As of August 15th, the following number of solutions have been completed:
 | Mathematics           |     31/31     |
 | String Algorithms     |     13/17     |
 | Geometry              |      7/7      |
-| Advanced Techniques   |     17/24     |
+| Advanced Techniques   |     19/24     |
 | Additional Problems   |     25/77     |
-| **Total**             |  **232/300**  |
+| **Total**             |  **234/300**  |
 
 # Table of Contents
 
@@ -261,8 +261,8 @@ As of August 15th, the following number of solutions have been completed:
 1. [Necessary Roads](/Advanced%20Techniques/Necessary%20Roads.cpp)
 1. [Necessary Cities](/Advanced%20Techniques/Necessary%20Cities.cpp)
 1. Eulerian Subgraphs
-1. Monster Game I
-1. Monster Game II
+1. [Monster Game I](/Advanced%20Techniques/Monster%20Game%20I.cpp)
+1. [Monster Game II](/Advanced%20Techniques/Monster%20Game%20II.cpp)
 1. [Subarray Squares](/Advanced%20Techniques/Subarray%20Squares.cpp)
 1. [Houses and Schools](/Advanced%20Techniques/Houses%20and%20Schools.cpp)
 1. [Knuth Division](/Advanced%20Techniques/Knuth%20Division.cpp)
