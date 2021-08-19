@@ -4,13 +4,13 @@ Over 200 accepted solutions to the CSES Problem Set, written in C++ by Jonathan 
 
 The CSES Problem Set is a high quality collection of competitive programming practice problems. In January 2021, the collection was updated to include 300 problems, and more may be added in the future. See the problem set [here](https://cses.fi/problemset/).
 
-As of August 18th, the following number of solutions have been completed:
+As of August 19th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
 | Introductory Problems |     19/19     |
 | Sorting and Searching |     34/35     |
-| Dynamic Programming   |     18/19     |
+| Dynamic Programming   |     19/19     |
 | Graph Algorithms      |     33/36     |
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     16/16     |
@@ -19,7 +19,7 @@ As of August 18th, the following number of solutions have been completed:
 | Geometry              |      7/7      |
 | Advanced Techniques   |     19/24     |
 | Additional Problems   |     25/77     |
-| **Total**             |  **234/300**  |
+| **Total**             |  **235/300**  |
 
 # Table of Contents
 
@@ -101,7 +101,7 @@ As of August 18th, the following number of solutions have been completed:
 1. [Projects](/Dynamic%20Programming/Projects.cpp)
 1. [Elevator Rides](/Dynamic%20Programming/Elevator%20Rides.cpp)
 1. [Counting Tilings](/Dynamic%20Programming/Counting%20Tilings.cpp)
-1. Counting Numbers
+1. [Counting Numbers](/Dynamic%20Programming/Counting%20Numbers.cpp)
 
 ## Graph Algorithms
 
