@@ -28,7 +28,7 @@ int main(){
     for(int i = 0, a, b; i < M; i++){
         scanf("%d %d", &a, &b);
         if(!merge(a, b))
-            ans = (2* ans) % MOD;
+            ans = (2 * ans) % MOD;
     }
     printf("%d\n", ans);
 }
