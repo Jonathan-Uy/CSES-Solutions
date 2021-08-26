@@ -1,10 +1,10 @@
 # CSES Solutions
 
-Over 200 accepted solutions to the CSES Problem Set, written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919).
+Over 230 accepted solutions to the CSES Problem Set, written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919).
 
 The CSES Problem Set is a high quality collection of competitive programming practice problems. In January 2021, the collection was updated to include 300 problems, and more may be added in the future. See the problem set [here](https://cses.fi/problemset/).
 
-As of August 19th, the following number of solutions have been completed:
+As of August 25th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -17,9 +17,9 @@ As of August 19th, the following number of solutions have been completed:
 | Mathematics           |     31/31     |
 | String Algorithms     |     13/17     |
 | Geometry              |      7/7      |
-| Advanced Techniques   |     19/24     |
+| Advanced Techniques   |     20/24     |
 | Additional Problems   |     25/77     |
-| **Total**             |  **235/300**  |
+| **Total**             |  **236/300**  |
 
 # Table of Contents
 
@@ -260,7 +260,7 @@ As of August 19th, the following number of solutions have been completed:
 1. [Reversals and Sums](/Advanced%20Techniques/Reversals%20and%20Sums.cpp)
 1. [Necessary Roads](/Advanced%20Techniques/Necessary%20Roads.cpp)
 1. [Necessary Cities](/Advanced%20Techniques/Necessary%20Cities.cpp)
-1. Eulerian Subgraphs
+1. [Eulerian Subgraphs](/Advanced%20Techniques/Eulerian%20Subgraphs.cpp)
 1. [Monster Game I](/Advanced%20Techniques/Monster%20Game%20I.cpp)
 1. [Monster Game II](/Advanced%20Techniques/Monster%20Game%20II.cpp)
 1. [Subarray Squares](/Advanced%20Techniques/Subarray%20Squares.cpp)
