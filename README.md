@@ -1,17 +1,13 @@
 # CSES Solutions
 
-Over 230 accepted solutions to the CSES Problem Set, written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919).
-
-The CSES Problem Set is a high quality collection of competitive programming practice problems. In January 2021, the collection was updated to include 300 problems, and more may be added in the future. See the problem set [here](https://cses.fi/problemset/).
-
-As of August 25th, the following number of solutions have been completed:
+Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of August 26th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
 | Introductory Problems |     19/19     |
 | Sorting and Searching |     34/35     |
 | Dynamic Programming   |     19/19     |
-| Graph Algorithms      |     33/36     |
+| Graph Algorithms      |     35/36     |
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     16/16     |
 | Mathematics           |     31/31     |
@@ -19,7 +15,7 @@ As of August 25th, the following number of solutions have been completed:
 | Geometry              |      7/7      |
 | Advanced Techniques   |     20/24     |
 | Additional Problems   |     25/77     |
-| **Total**             |  **236/300**  |
+| **Total**             |  **238/300**  |
 
 # Table of Contents
 
@@ -117,7 +113,7 @@ As of August 25th, the following number of solutions have been completed:
 1. [High Score](/Graph%20Algorithms/High%20Score.cpp)
 1. [Flight Discount](/Graph%20Algorithms/Flight%20Discount.cpp)
 1. [Cycle Finding](/Graph%20Algorithms/Cycle%20Finding.cpp)
-1. Flight Routes
+1. [Flight Routes](/Graph%20Algorithms/Flight%20Routes.cpp)
 1. [Round Trip II](/Graph%20Algorithms/Round%20Trip%20II.cpp)
 1. [Course Schedule](/Graph%20Algorithms/Course%20Schedule%20I.cpp)
 1. [Longest Flight Route](/Graph%20Algorithms/Longest%20Flight%20Route.cpp)
@@ -140,7 +136,7 @@ As of August 25th, the following number of solutions have been completed:
 1. [Download Speed](/Graph%20Algorithms/Download%20Speed.cpp)
 1. [Police Chase](/Graph%20Algorithms/Police%20Chase.cpp)
 1. [School Dance](/Graph%20Algorithms/School%20Dance.cpp)
-1. Distinct Routes
+1. [Distinct Routes](/Graph%20Algorithms/Distinct%20Routes%20I.cpp)
 
 ## Range Queries
 
