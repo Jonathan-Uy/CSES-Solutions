@@ -1,21 +1,10 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-typedef long long ll;
 const int maxN = 1e5+1;
-const ll MOD = 1e9+7;
+const int MOD = 1e9+7;
 
-int N, M, cnt, ds[maxN];
-
-ll pow2(int x){
-    ll res = 1, a = 2;
-    while(x){
-        if(x&1) res = (res * a) % MOD;
-        a = (a * a) % MOD;
-        x >>= 1;
-    }
-    return res;
-}
+int N, M, ans, ds[maxN];
 
 int find(int u){
     if(ds[u] < 0)   return u;
@@ -35,9 +24,11 @@ bool merge(int u, int v){
 int main(){
     scanf("%d %d", &N, &M);
     fill(ds+1, ds+N+1, -1);
+    ans = 1;    
     for(int i = 0, a, b; i < M; i++){
         scanf("%d %d", &a, &b);
-        if(!merge(a, b))    cnt++;
+        if(!merge(a, b))
+            ans = (2* ans) % MOD;
     }
-    printf("%lld\n", pow2(cnt));
+    printf("%d\n", ans);
 }
