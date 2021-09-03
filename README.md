@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of August 26th, the following number of solutions have been completed:
+Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 2nd, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -13,9 +13,9 @@ Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Mathematics           |     31/31     |
 | String Algorithms     |     13/17     |
 | Geometry              |      7/7      |
-| Advanced Techniques   |     20/24     |
+| Advanced Techniques   |     21/24     |
 | Additional Problems   |     25/77     |
-| **Total**             |  **238/300**  |
+| **Total**             |  **239/300**  |
 
 # Table of Contents
 
@@ -266,7 +266,7 @@ Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [One Bit Positions](/Advanced%20Techniques/One%20Bit%20Positions.cpp)
 1. [Signal Processing](/Advanced%20Techniques/Signal%20Processing.cpp)
 1. [New Roads Queries](/Advanced%20Techniques/New%20Roads%20Queries.cpp)
-1. Dynamic Connectivity
+1. [Dynamic Connectivity](/Advanced%20Techniques/Dynamic%20Connectivity.cpp)
 1. Parcel Delivery
 1. Task Assignment
 1. Distinct Routes II
