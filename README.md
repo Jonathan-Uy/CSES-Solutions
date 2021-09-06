@@ -14,8 +14,8 @@ Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     13/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     21/24     |
-| Additional Problems   |     26/77     |
-| **Total**             |  **240/300**  |
+| Additional Problems   |     27/77     |
+| **Total**             |  **241/300**  |
 
 # Table of Contents
 
@@ -279,7 +279,7 @@ Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Prüfer Code](/Additional%20Problems/Prufer%20Code.cpp)
 1. [Acyclic Graph Edges](/Additional%20Problems/Acyclic%20Graph%20Edges.cpp)
 1. [Strongly Connected Edges](/Additional%20Problems/Strongly%20Connected%20Edges.cpp)
-1. Even Outdegree Edges
+1. [Even Outdegree Edges](/Additional%20Problems/Even%20Outdegree%20Edges.cpp)
 1. [Multiplication Table](/Additional%20Problems/Multiplication%20Table.cpp)
 1. [Advertisement](/Additional%20Problems/Advertisement.cpp)
 1. Special Substrings
