@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 2nd, the following number of solutions have been completed:
+Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 6th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -14,8 +14,8 @@ Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     13/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     21/24     |
-| Additional Problems   |     25/77     |
-| **Total**             |  **239/300**  |
+| Additional Problems   |     26/77     |
+| **Total**             |  **240/300**  |
 
 # Table of Contents
 
@@ -291,7 +291,7 @@ Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Network Renovation](/Additional%20Problems/Network%20Renovation.cpp)
 1. [Graph Girth](/Additional%20Problems/Graph%20Girth.cpp)
 1. [Intersection Points](/Additional%20Problems/Intersection%20Points.cpp)
-1. Inverse Inversions
+1. [Inverse Inversions](/Additional%20Problems/Inverse%20Inversions.cpp)
 1. Monotone Subsequences
 1. String Reorder
 1. Stack Weights
