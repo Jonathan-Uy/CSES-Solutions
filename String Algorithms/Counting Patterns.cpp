@@ -4,7 +4,7 @@ using namespace std;
 const int maxN = 1e5+5;
 
 struct Node {
-    int len, link, cnt, firstpos;
+    int len, link, cnt;
     map<char,int> nxt;
 } node[2*maxN];
 
