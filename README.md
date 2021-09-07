@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 6th, the following number of solutions have been completed:
+Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 7th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -14,8 +14,8 @@ Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     13/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     21/24     |
-| Additional Problems   |     29/77     |
-| **Total**             |  **243/300**  |
+| Additional Problems   |     30/77     |
+| **Total**             |  **244/300**  |
 
 # Table of Contents
 
@@ -347,6 +347,6 @@ Over 230 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. Grid Completion
 1. Creating Offices
 1. [Permutations II](/Additional%20Problems/Permutations%20II.cpp)
-1. Functional Graph Distribution
+1. [Functional Graph Distribution](/Additional%20Problems/Functional%20Graph%20Distribution.cpp)
 1. New Flight Routes
 1. Grid Path Construction
