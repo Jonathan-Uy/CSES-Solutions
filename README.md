@@ -11,11 +11,11 @@ Over 240 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     16/16     |
 | Mathematics           |     31/31     |
-| String Algorithms     |     14/17     |
+| String Algorithms     |     15/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     21/24     |
 | Additional Problems   |     31/77     |
-| **Total**             |  **246/300**  |
+| **Total**             |  **247/300**  |
 
 # Table of Contents
 
@@ -230,7 +230,7 @@ Over 240 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Repeating Substring](/String%20Algorithms/Repeating%20Substring.cpp)
 1. [String Functions](/String%20Algorithms/String%20Functions.cpp)
 1. [Substring Order I](/String%20Algorithms/Substring%20Order%20I.cpp)
-1. Substring Order II
+1. [Substring Order II](/String%20Algorithms/Substring%20Order%20II.cpp)
 1. Substring Distribution
 
 
