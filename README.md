@@ -14,8 +14,8 @@ Over 250 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     15/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     21/24     |
-| Additional Problems   |     35/77     |
-| **Total**             |  **251/300**  |
+| Additional Problems   |     36/77     |
+| **Total**             |  **252/300**  |
 
 # Table of Contents
 
@@ -300,7 +300,7 @@ Over 250 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [String Removals](/Additional%20Problems/String%20Removals.cpp)
 1. [Bit Inversions](/Additional%20Problems/Bit%20Inversions.cpp)
 1. [Xor Pyramid](/Additional%20Problems/Xor%20Pyramid.cpp)
-1. Writing Numbers
+1. [Writing Numbers](/Additional%20Problems/Writing%20Numbers.cpp)
 1. String Transform
 1. Letter Pair Move Game
 1. [Maximum Building I](/Additional%20Problems/Maximum%20Building%20I.cpp)
