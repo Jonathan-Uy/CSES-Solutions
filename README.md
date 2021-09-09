@@ -14,8 +14,8 @@ Over 240 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     15/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     21/24     |
-| Additional Problems   |     33/77     |
-| **Total**             |  **249/300**  |
+| Additional Problems   |     34/77     |
+| **Total**             |  **250/300**  |
 
 # Table of Contents
 
@@ -343,7 +343,7 @@ Over 240 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. Two Stacks Sorting
 1. Tree Isomorphism II
 1. Forbidden Cities
-1. Area of Rectangles
+1. [Area of Rectangles](/Additional%20Problems/Area%20of%20Rectangles.cpp)
 1. Grid Completion
 1. Creating Offices
 1. [Permutations II](/Additional%20Problems/Permutations%20II.cpp)
