@@ -14,8 +14,8 @@ Over 250 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     15/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     22/24     |
-| Additional Problems   |     39/77     |
-| **Total**             |  **257/300**  |
+| Additional Problems   |     40/77     |
+| **Total**             |  **258/300**  |
 
 # Table of Contents
 
@@ -269,7 +269,7 @@ Over 250 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Dynamic Connectivity](/Advanced%20Techniques/Dynamic%20Connectivity.cpp)
 1. [Parcel Delivery](/Advanced%20Techniques/Parcel%20Delivery.cpp)
 1. Task Assignment
-1. Distinct Routes II
+1. [Distinct Routes II](/Advanced%20Techniques/Distinct%20Routes%20II.cpp)
 
 ## Additional Problems
 
