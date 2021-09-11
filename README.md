@@ -5,7 +5,7 @@ Over 250 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
 | Introductory Problems |     19/19     |
-| Sorting and Searching |     34/35     |
+| Sorting and Searching |     35/35     |
 | Dynamic Programming   |     19/19     |
 | Graph Algorithms      |     35/36     |
 | Range Queries         |     19/19     |
@@ -15,7 +15,7 @@ Over 250 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Geometry              |      7/7      |
 | Advanced Techniques   |     21/24     |
 | Additional Problems   |     39/77     |
-| **Total**             |  **255/300**  |
+| **Total**             |  **256/300**  |
 
 # Table of Contents
 
@@ -73,7 +73,7 @@ Over 250 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Subarray Distinct Values](/Sorting%20and%20Searching/Subarray%20Distinct%20Values.cpp)
 1. [Array Division](/Sorting%20and%20Searching/Array%20Division.cpp)
 1. [Sliding Median](/Sorting%20and%20Searching/Sliding%20Median.cpp)
-1. Sliding Cost
+1. [Sliding Cost](/Sorting%20and%20Searching/Sliding%20Cost.cpp)
 1. [Movie Festival II](/Sorting%20and%20Searching/Movie%20Festival%20II.cpp)
 1. [Maximum Subarray Sum II](/Sorting%20and%20Searching/Maximum%20Subarray%20Sum%20II.cpp)
 
