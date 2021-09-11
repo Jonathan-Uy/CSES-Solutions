@@ -13,8 +13,8 @@ Over 250 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Mathematics           |     31/31     |
 | String Algorithms     |     15/17     |
 | Geometry              |      7/7      |
-| Advanced Techniques   |     22/24     |
-| Additional Problems   |     40/77     |
+| Advanced Techniques   |     23/24     |
+| Additional Problems   |     39/77     |
 | **Total**             |  **258/300**  |
 
 # Table of Contents
