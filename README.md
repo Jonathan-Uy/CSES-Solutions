@@ -14,8 +14,8 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     15/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     42/77     |
-| **Total**             |  **262/300**  |
+| Additional Problems   |     43/77     |
+| **Total**             |  **263/300**  |
 
 # Table of Contents
 
@@ -282,7 +282,7 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Even Outdegree Edges](/Additional%20Problems/Even%20Outdegree%20Edges.cpp)
 1. [Multiplication Table](/Additional%20Problems/Multiplication%20Table.cpp)
 1. [Advertisement](/Additional%20Problems/Advertisement.cpp)
-1. Special Substrings
+1. [Special Substrings](/Additional%20Problems/Special%20Substrings.cpp)
 1. [Permutation Inversions](/Additional%20Problems/Permutation%20Inversions.cpp)
 1. [Maximum Xor Subarray](/Additional%20Problems/Maximum%20Xor%20Subarray.cpp)
 1. Movie Festival Queries
