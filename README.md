@@ -83,7 +83,7 @@ Over 250 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Minimizing Coins](/Dynamic%20Programming/Minimizing%20Coins.cpp)
 1. [Coin Combinations I](/Dynamic%20Programming/Coin%20Combinations%20I.cpp)
 1. [Coin Combinations II](/Dynamic%20Programming/Coin%20Combinations%20II.cpp)
-1. [Removing Digits](/Dynamic%20Programming/Removing%20Digits.cpp)
+1. [Removing Digits](/Dynamic%20Programming/Removing%20Digits%20I.cpp)
 1. [Grid Paths](/Dynamic%20Programming/Grid%20Paths%20II.cpp)
 1. [Book Shop](/Dynamic%20Programming/Book%20Shop%20I.cpp)
 1. [Array Description](/Dynamic%20Programming/Array%20Description.cpp)
