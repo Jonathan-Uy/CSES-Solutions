@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 13th, the following number of solutions have been completed:
+Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 14th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -14,8 +14,8 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     15/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     41/77     |
-| **Total**             |  **261/300**  |
+| Additional Problems   |     42/77     |
+| **Total**             |  **262/300**  |
 
 # Table of Contents
 
@@ -330,7 +330,7 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. Bit Substrings
 1. Reversal Sorting
 1. Counting Reorders
-1. Book Shop II
+1. [Book Shop II](/Additional%20Problems/Book%20Shop%20II.cpp)
 1. [Network Breakdown](/Additional%20Problems/Network%20Breakdown.cpp)
 1. Visiting Cities
 1. Missing Coin Sum Queries
