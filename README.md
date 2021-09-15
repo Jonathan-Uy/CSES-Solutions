@@ -1,13 +1,13 @@
 # CSES Solutions
 
-Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 14th, the following number of solutions have been completed:
+Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 15th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
 | Introductory Problems |     19/19     |
 | Sorting and Searching |     35/35     |
 | Dynamic Programming   |     19/19     |
-| Graph Algorithms      |     35/36     |
+| Graph Algorithms      |     36/36     |
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     16/16     |
 | Mathematics           |     31/31     |
@@ -15,7 +15,7 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
 | Additional Problems   |     43/77     |
-| **Total**             |  **263/300**  |
+| **Total**             |  **264/300**  |
 
 # Table of Contents
 
@@ -120,7 +120,7 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Game Routes](/Graph%20Algorithms/Game%20Routes.cpp)
 1. [Investigation](/Graph%20Algorithms/Investigation.cpp)
 1. [Planets Queries I](/Graph%20Algorithms/Planets%20Queries%20I.cpp)
-1. Planets Queries II
+1. [Planets Queries II](/Graph%20Algorithms/Planets%20Queries%20II.cpp)
 1. [Planets Cycles](/Graph%20Algorithms/Planets%20Cycles.cpp)
 1. [Road Reparation](/Graph%20Algorithms/Road%20Reparation.cpp)
 1. [Road Construction](/Graph%20Algorithms/Road%20Construction.cpp)
