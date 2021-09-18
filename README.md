@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 16th, the following number of solutions have been completed:
+Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 18th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -14,8 +14,8 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     15/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     44/77     |
-| **Total**             |  **265/300**  |
+| Additional Problems   |     46/77     |
+| **Total**             |  **267/300**  |
 
 # Table of Contents
 
@@ -312,7 +312,7 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. Bit Problem
 1. Swap Round Sorting
 1. Binary Subsequences
-1. Tree Isomorphism I
+1. [Tree Isomorphism I](/Additional%20Problems/Tree%20Isomorphism%20I.cpp)
 1. [Counting Sequences](/Additional%20Problems/Counting%20Sequences.cpp)
 1. Critical Cities
 1. [School Excursion](/Additional%20Problems/School%20Excursion.cpp)
@@ -341,7 +341,7 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Coding Company](/Additional%20Problems/Coding%20Company.cpp)
 1. Flight Route Requests
 1. Two Stacks Sorting
-1. Tree Isomorphism II
+1. [Tree Isomorphism II](/Additional%20Problems/Tree%20Isomorphism%20II.cpp)
 1. Forbidden Cities
 1. [Area of Rectangles](/Additional%20Problems/Area%20of%20Rectangles.cpp)
 1. Grid Completion
