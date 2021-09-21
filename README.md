@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 19th, the following number of solutions have been completed:
+Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 21th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -11,11 +11,11 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     16/16     |
 | Mathematics           |     31/31     |
-| String Algorithms     |     15/17     |
+| String Algorithms     |     16/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
 | Additional Problems   |     47/77     |
-| **Total**             |  **268/300**  |
+| **Total**             |  **269/300**  |
 
 # Table of Contents
 
@@ -231,7 +231,7 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [String Functions](/String%20Algorithms/String%20Functions.cpp)
 1. [Substring Order I](/String%20Algorithms/Substring%20Order%20I.cpp)
 1. [Substring Order II](/String%20Algorithms/Substring%20Order%20II.cpp)
-1. Substring Distribution
+1. [Substring Distribution](/String%20Algorithms/Substring%20Distribution.cpp)
 
 
 ## Geometry
