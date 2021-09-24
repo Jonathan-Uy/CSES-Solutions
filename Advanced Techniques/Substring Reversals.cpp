@@ -1,8 +1,10 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-typedef long long ll;
 const int maxN = 2e5+5;
+
+mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+uniform_int_distribution<int> dist(1, (int) 2e9);
 
 struct Node {
     bool rev;
@@ -94,7 +96,7 @@ Node* build(int x, int k){
     if(k == 0)  return nullptr;
 
     int mid = k/2;
-    Node *t = new Node(S[x+mid], rand());
+    Node *t = new Node(S[x+mid], dist(rng));
     t->l = build(x, mid);
     t->r = build(x+mid+1, k-mid-1);
     heapify(t);
