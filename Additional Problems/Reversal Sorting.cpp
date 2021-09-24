@@ -1,13 +1,16 @@
 #include <bits/stdc++.h>
- 
+
 using namespace std;
 const int maxN = 2e5+5;
- 
+
+mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+uniform_int_distribution<int> dist(1, (int) 2e9);
+
 struct Node {
     bool rev;
     int value, prior, sz;
     Node *p, *l, *r;
-    
+
     Node(){}
     Node(int val, int pri){
         prior = pri;
@@ -16,25 +19,25 @@ struct Node {
         p = l = r = nullptr;
     }
 };
- 
+
 int N, X[maxN];
 Node *root, *ndptr[maxN];
- 
+
 int sz(Node *t){    return t ? t->sz : 0;       }
 int val(Node *t){   return t ? t->value : -1;   }
- 
+
 void flip(Node *t){
     if(!t)	return;
     t->rev ^= true;
 }
- 
+
 void pull(Node *t){
     if(!t)	return;
     if(t->l)    t->l->p = t;
     if(t->r)    t->r->p = t;
     t->sz = sz(t->l) + sz(t->r) + 1;
 }
- 
+
 void push(Node *t){
     if(!t)	return;
     if(t->rev){
@@ -43,10 +46,10 @@ void push(Node *t){
         t->rev = false;
     }
 }
- 
+
 Node* merge(Node *x, Node *y){
     if(!x || !y)	return x ? x : y;
-    
+
     push(x); push(y);
     if(x->prior < y->prior){
         x->r = merge(x->r, y);
@@ -58,10 +61,10 @@ Node* merge(Node *x, Node *y){
         return y;
     }
 }
- 
+
 pair<Node*,Node*> split(Node *x, int k){
     if(!x)	return {nullptr, nullptr};
-    
+
     pair<Node*,Node*> y = {nullptr, nullptr};
     push(x);
     if(k <= sz(x->l)){
@@ -77,10 +80,10 @@ pair<Node*,Node*> split(Node *x, int k){
     }
     return y;
 }
- 
+
 void heapify(Node *t){
     if(!t)	return;
-    
+
     Node *mx = t;
     if(t->l && t->l->prior > mx->prior)	mx = t->l;
     if(t->r && t->r->prior > mx->prior)	mx = t->r;
@@ -89,12 +92,12 @@ void heapify(Node *t){
         heapify(mx);
     }
 }
- 
+
 Node* build(int x, int k){
     if(k == 0)	return nullptr;
-    
+
     int mid = k/2;
-    Node *t = new Node(X[x+mid], rand());
+    Node *t = new Node(X[x+mid], dist(rng));
     ndptr[X[x+mid]] = t;
     t->l = build(x, mid);
     t->r = build(x+mid+1, k-mid-1);
@@ -102,7 +105,7 @@ Node* build(int x, int k){
     pull(t);
     return t;
 }
- 
+
 void reverse(int x, int k){
     pair<Node*,Node*> y, z;
     y = split(root, x-1);
@@ -115,7 +118,7 @@ void reverse(int x, int k){
 
 int orderOf(int v){
     Node* t = ndptr[v];
-    
+
     vector<Node*> walk;
     while(t){
         walk.push_back(t);
@@ -126,7 +129,7 @@ int orderOf(int v){
         push(nd);
         pull(nd);
     }
-    
+
     t = ndptr[v];
     int idx = sz(t->l);
     while(t){
@@ -136,14 +139,14 @@ int orderOf(int v){
     }
     return idx;
 }
- 
+
 int main(){
     scanf("%d", &N);
     for(int i = 0; i < N; i++)
         scanf("%d", &X[i]);
-    
+
     root = build(0, N);
-    
+
     printf("%d\n", N);
     for(int l = 1; l <= N; l++){
         int r = orderOf(l)+1;
