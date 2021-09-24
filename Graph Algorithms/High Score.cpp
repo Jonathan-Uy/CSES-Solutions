@@ -48,11 +48,11 @@ int main(){
             int u = edges[i].a;
             int v = edges[i].b;
             ll w = edges[i].c;
-            
+
             if(dp[v] > dp[u]+w){
                 dp[v] = dp[u]+w;
                 improvement = true;
-                
+
                 if(iter == N-1 && vis[v] && visR[v]){
                     printf("-1\n");
                     return 0;
@@ -60,6 +60,6 @@ int main(){
             }
         }
     }
-    
+
     printf("%lld\n", -dp[N]);
 }

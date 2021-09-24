@@ -25,7 +25,7 @@ int getSize(int u = 1, int p = -1){
     for(int v : G[u])
         if(v != p && !vis[v])
             sz[u] += getSize(v, u);
-    
+
     return sz[u];
 }
 

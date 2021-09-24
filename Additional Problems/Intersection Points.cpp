@@ -41,7 +41,7 @@ int main(){
     sort(ops.begin(), ops.end(), [](Operation A, Operation B){
         return A.y < B.y;
     });
-    
+
     ll ans = 0;
     for(Operation O : ops){
         if(O.type == 1)         ans += query(O.b) - query(O.a-1);

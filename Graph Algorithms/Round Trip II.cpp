@@ -29,22 +29,22 @@ int main(){
         scanf("%d %d", &a, &b);
         G[a].push_back(b);
     }
-    
+
     for(int i = 1; i <= N && !start; i++)
         if(vis[i] == 0)
             dfs(i);
-    
+
     if(!start){
         printf("IMPOSSIBLE\n");
         return 0;
     }
-    
+
     ans.push_back(start);
     for(int u = finish; u != start; u = p[u])
         ans.push_back(u);
     ans.push_back(start);
     reverse(ans.begin(), ans.end());
-    
+
     int K = (int) ans.size();
     printf("%d\n", K);
     for(int i = 0; i < K; i++)

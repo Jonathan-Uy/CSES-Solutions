@@ -38,7 +38,7 @@ int main(){
     scanf(" %s %d", S, &K);
     for(int i = 0; i < K; i++)
         hashWord();
-    
+
     dp[0] = 1;
     int N = strlen(S);
     ll h1 = 0, h2 = 0;

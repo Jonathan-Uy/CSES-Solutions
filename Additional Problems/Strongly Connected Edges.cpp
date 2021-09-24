@@ -17,10 +17,10 @@ void dfs(int u = 1, int p = 0){
         int v = P.first;
         int id = P.second;
         if(used[id])    continue;
-        
+
         used[id] = true;
         edges[id] = {u, v};
-        
+
         if(vis[v]){
             low[u] = min(low[u], tin[v]);
         } else {

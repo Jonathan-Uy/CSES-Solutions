@@ -12,7 +12,7 @@ int main(){
     scanf("%lld %d", &N, &K);
     for(int i = 0; i < K; i++)
         scanf("%lld", &a[i]);
-    
+
     cnt = N;
     double RHS = log(N) + EPS;
     for(int mask = 0; mask < (1<<K); mask++){
@@ -26,7 +26,7 @@ int main(){
                 prod *= a[i];
             }
         }
-        
+
         if(LHS < RHS)
             cnt += (odd ? 1 : -1) * (N/prod);
     }

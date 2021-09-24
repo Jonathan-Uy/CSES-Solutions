@@ -40,7 +40,7 @@ int main(){
         printf("01");
         return 0;
     }
-    
+
     init();
     solve();
     for(int i = 0; i < ansptr; i++)

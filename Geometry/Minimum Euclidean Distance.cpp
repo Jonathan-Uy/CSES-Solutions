@@ -48,7 +48,7 @@ void solve(vector<int> PX, vector<int> PY){
     for(int id : PY)
         if(square(P[id].first-midX) < best)
             stripe.push_back(id);
-    
+
     for(int i = 0; i < (int) stripe.size(); i++)
         for(int j = i+1; j < (int) stripe.size() && square(P[stripe[i]].second-P[stripe[j]].second) < best; j++)
             best = min(best, dist(P[stripe[i]], P[stripe[j]]));

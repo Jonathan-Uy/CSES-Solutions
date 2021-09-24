@@ -19,7 +19,7 @@ void bellman_ford(){
     fill(inq+1, inq+N+1, false);
     fill(d+1, d+N+1, INF);
     fill(p+1, p+N+1, 0);
-    
+
     queue<int> Q;
     Q.push(1);
     d[1] = 0;
@@ -27,7 +27,7 @@ void bellman_ford(){
     while(!Q.empty()){
         int u = Q.front(); Q.pop();
         inq[u] = false;
-        
+
         for(int i : G[u]){
             Edge e = (i < 0 ? redges[-i] : edges[i]);
             if(e.r > 0 && d[e.v] > d[u] + e.c){
@@ -47,7 +47,7 @@ ll minimum_cost_flow(){
     while(flow < K){
         bellman_ford();
         if(d[N] == INF) break;
-        
+
         ll aug = K-flow;
         int u = N;
         while(u != 1){
@@ -55,7 +55,7 @@ ll minimum_cost_flow(){
             aug = min(aug, e.r);
             u = e.u;
         }
-        
+
         flow += aug;
         cost += aug * d[N];
         u = N;

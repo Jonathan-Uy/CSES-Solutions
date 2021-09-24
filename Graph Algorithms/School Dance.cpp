@@ -11,7 +11,7 @@ vector<pii> pairs;
 
 bool kuhns(int u){
     if(used[u]) return false;
-    
+
     used[u] = true;
     for(int v : G[u]){
         if(!mt[v] || kuhns(mt[v])){
@@ -19,7 +19,7 @@ bool kuhns(int u){
             return true;
         }
     }
-    
+
     return false;
 }
 
@@ -29,12 +29,12 @@ int main(){
         scanf("%d %d", &a, &b);
         G[b].push_back(a);
     }
-    
+
     for(int i = 1; i <= M; i++){
         fill(used+1, used+N+1, false);
         kuhns(i);
     }
-    
+
     cnt = 0;
     for(int i = 1; i <= N; i++){
         if(mt[i]){
@@ -42,7 +42,7 @@ int main(){
             cnt++;
         }
     }
-    
+
     printf("%d\n", cnt);
     for(pii P : pairs)
         printf("%d %d\n", P.first, P.second);

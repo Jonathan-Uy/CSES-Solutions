@@ -37,11 +37,11 @@ int main(){
         G[t[i]].push_back(i);
         in[t[i]]++;
     }
-    
+
     for(int i = 1; i <= N; i++)
         if(in[i] == 0)
             Q.push(i);
-    
+
     while(!Q.empty()){
         int u = Q.front(); Q.pop();
         int v = t[u];
@@ -49,11 +49,11 @@ int main(){
         if(in[v] == 0)
             Q.push(v);
     }
-    
+
     for(int i = 1; i <= N; i++)
         if(in[i] && !vis[i])
             dfs2(i);
-    
+
     for(int i = 1; i <= N; i++)
         printf("%d%c", ans[i], (" \n")[i==N]);
 }

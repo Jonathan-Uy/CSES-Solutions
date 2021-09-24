@@ -41,7 +41,7 @@ int main(){
         p[1][i] = p[1][i-1] + i * x;
         p[2][i] = p[2][i-1] + (N-i+1) * x;
     }
-    
+
     for(int i = 1; i <= N; i++)
         dp[1][i] = travel(2, 1, i);
     for(int k = 2; k <= K; k++)

@@ -19,7 +19,7 @@ int main(){
             if(j != c)
                 dp[c] = (dp[c] + dp[j]) % MOD;
     }
-    
+
     for(int i = 0; i < 26; i++)
         tot = (tot + dp[i]) % MOD;
     printf("%lld\n", tot);

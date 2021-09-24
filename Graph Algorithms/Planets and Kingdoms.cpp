@@ -30,11 +30,11 @@ int main(){
         G[a].push_back(b);
         GR[b].push_back(a);
     }
-    
+
     for(int i = 1; i <= N; i++)
         if(!vis[i])
             dfs1(i);
-    
+
     int K = 0;
     fill(vis+1, vis+N+1, false);
     reverse(ord.begin(), ord.end());
@@ -47,7 +47,7 @@ int main(){
             comp.clear();
         }
     }
-    
+
     printf("%d\n", K);
     for(int i = 1; i <= N; i++)
         printf("%d%c", rt[i], (" \n")[i==N]);

@@ -71,7 +71,7 @@ int query(){
 int main(){
     scanf(" %s %d", S, &K);
     N = strlen(S);
-    
+
     init();
     for(int i = 0; i < N; i++)
         extend(S[i]);

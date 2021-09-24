@@ -30,7 +30,7 @@ void init(){
         fac[i] = (fac[i-1] * i) % MOD;
         inv[i] = fastpow(fac[i], MOD-2);
     }
-    
+
     for(int i = 0; i < maxN; i++)
         for(int j = i; j < maxN; j++)
             dp[i][j] = -1;
@@ -40,7 +40,7 @@ ll solve(int l, int r){
     if((r-l+1)&1)       return 0;
     if(l > r)           return 1;
     if(dp[l][r] != -1)  return dp[l][r];
-    
+
     ll cnt = 0;
     for(int m = l+1; m <= r; m++){
         if(S[l] == S[m]){
@@ -49,7 +49,7 @@ ll solve(int l, int r){
             cnt = (cnt + aftercombine) % MOD;
         }
     }
-    
+
     return dp[l][r] = cnt;
 }
 

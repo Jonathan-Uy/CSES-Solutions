@@ -19,7 +19,7 @@ void init(){
 int main(){
     init();
     scanf(" %s", S);
-    
+
     N = strlen(S);
     for(int i = 0; i < N; i++){
         int c = mp[S[i]];
@@ -33,7 +33,7 @@ int main(){
             }
         }
     }
-    
+
     for(int i : segs)
         printf("%c", S[i]);
     for(int i = 0; i < 4; i++){

@@ -13,22 +13,22 @@ int main(){
         scanf("%d", &a[i]);
         deg[a[i]]++;
     }
-    
+
     for(int i = 1; i <= N; i++)
         if(deg[i] == 1)
             Q.push(i);
-    
+
     for(int i = 0; i < N-2; i++){
         int u = a[i];
         int v = Q.top(); Q.pop();
-        
+
         deg[u]--; deg[v]--;
         if(deg[u] == 1)
             Q.push(u);
 
         printf("%d %d\n", u, v);
     }
-    
+
     for(int i = 1; i <= N; i++)
         if(deg[i])
             printf("%d ", i);

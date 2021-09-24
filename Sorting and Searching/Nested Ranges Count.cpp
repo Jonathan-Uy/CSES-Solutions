@@ -32,28 +32,28 @@ int main(){
     sort(ranges, ranges+N, [](triple A, triple B){
         return (A[0] == B[0] ? A[1] > B[1] : A[0] < B[0]);
     });
-    
+
     int val_id = 1;
     for(int x : unique_vals)
         mp[x] = val_id++;
-    
+
     for(int i = N-1; i >= 0; i--){
         int y = mp[ranges[i][1]];
         int id = ranges[i][2];
-        
+
         ans[0][id] = query(y);
         update(y, 1);
     }
-    
+
     fill(ds, ds+SIZE, 0);
     for(int i = 0; i < N; i++){
         int y = mp[ranges[i][1]];
         int id = ranges[i][2];
-        
+
         ans[1][id] = i-query(y-1);
         update(y, 1);
     }
-    
+
     for(int i = 0; i < 2; i++)
         for(int j = 0; j < N; j++)
             printf("%d%c", ans[i][j], (" \n")[j==N-1]);

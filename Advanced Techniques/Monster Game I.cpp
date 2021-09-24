@@ -32,7 +32,7 @@ void insert(int i, Line L){
             seg[i] = L;
         return;
     }
-    
+
     int m = (l+r)/2;
     if(seg[i].m < L.m)  swap(seg[i], L);
     if(seg[i](m) > L(m)){
@@ -44,7 +44,7 @@ void insert(int i, Line L){
 ll query(int i, ll x){
     int l = lo[i], r = hi[i];
     if(l == r)  return seg[i](x);
-    
+
     int m = (l+r)/2;
     if(x < m)   return min(seg[i](x), query(2*i, x));
     else        return min(seg[i](x), query(2*i+1, x));
@@ -54,7 +54,7 @@ int main(){
     scanf("%d %lld", &N, &X);
     for(int i = 0; i < N; i++)  scanf("%lld", &s[i]);
     for(int i = 0; i < N; i++)  scanf("%lld", &f[i]);
-    
+
     build(1, 1, 1e6);
     insert(1, {X, 0});
     for(int i = 0; i < N-1; i++){

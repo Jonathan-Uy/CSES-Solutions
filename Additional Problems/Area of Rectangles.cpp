@@ -51,9 +51,9 @@ int main(){
         op[2*i+1] = {-1, d, a+1, c};
     }
     sort(op, op+2*N, [](Operation A, Operation B){
-       return (A[1] == B[1] ? A[0] < B[0] : A[1] < B[1]); 
+       return (A[1] == B[1] ? A[0] < B[0] : A[1] < B[1]);
     });
-    
+
     build(1, -1e6-5, 1e6+5);
     int lst = -1e6;
     for(int i = 0; i < 2*N; i++){
@@ -62,6 +62,6 @@ int main(){
         increment(1, x1, x2, t);
         lst = y;
     }
-    
+
     printf("%lld\n", area);
 }

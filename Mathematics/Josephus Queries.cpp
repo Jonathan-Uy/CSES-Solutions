@@ -8,7 +8,7 @@ map<pii,int> f;
 
 int solve(int N, int K){
     if(f[{N, K}])   return f[{N, K}];
-    
+
     if(N == 1)      return f[{N, K}] = 1;
     if(2*K <= N)    return f[{N, K}] = 2*K;
 

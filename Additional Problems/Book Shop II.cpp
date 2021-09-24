@@ -12,7 +12,7 @@ int main(){
     for(int i = 0; i < N; i++)  scanf("%d", &h[i]);
     for(int i = 0; i < N; i++)  scanf("%d", &s[i]);
     for(int i = 0; i < N; i++)  scanf("%d", &k[i]);
-    
+
     fill(dp+1, dp+X+1, -1);
     for(int i = 0; i < N; i++){
         for(int b = 1; k[i] > 0; b++){
@@ -25,7 +25,7 @@ int main(){
                     dp[j] = max(dp[j], dp[j-price] + pages);
         }
     }
-    
+
     for(int i = 1; i <= X; i++)
         dp[i] = max(dp[i], dp[i-1]);
     printf("%lld\n", dp[X]);

@@ -29,7 +29,7 @@ int main(){
             int u = edges[i].a;
             int v = edges[i].b;
             ll w = edges[i].c;
-            
+
             if(dp[v] > dp[u]+w){
                 dp[v] = dp[u]+w;
                 p[v] = u;
@@ -37,7 +37,7 @@ int main(){
             }
         }
     }
-    
+
     if(!ptr){
         printf("NO\n");
         return 0;
@@ -45,7 +45,7 @@ int main(){
 
     for(int i = 0; i < N; i++)
         ptr = p[ptr];
-    
+
     vector<int> cycle;
     for(int v = ptr;; v = p[v]){
         cycle.push_back(v);

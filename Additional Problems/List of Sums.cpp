@@ -13,7 +13,7 @@ bool check(ll a0){
     Bvals.clear();
     for(int i = 0; i < M; i++)
         Bvals.insert(B[i]);
-    
+
     for(int i = 1; i < N; i++){
         for(int j = 0; j < i-1; j++){
             if(Bvals.find(A[j]+A[i-1]) == Bvals.end())
@@ -22,7 +22,7 @@ bool check(ll a0){
         }
         A[i] = *Bvals.begin() - A[0];
     }
-    
+
     return true;
 }
 
@@ -32,7 +32,7 @@ int main(){
     for(int i = 0; i < M; i++)
         scanf("%lld", &B[i]);
     sort(B, B+M);
-    
+
     for(int i = 1; i < M; i++){
         ll a0 = (B[0] + B[1] - B[i])/2;
         if(1 <= a0 && a0 <= B[0]/2 && check(a0)){
@@ -41,6 +41,6 @@ int main(){
             return 0;
         }
     }
-    
+
     printf("IMPOSSIBLE\n");
 }

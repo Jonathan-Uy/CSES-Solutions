@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
- 
+
 using namespace std;
 typedef pair<int,int> pii;
 const int maxN = 105;
@@ -8,10 +8,10 @@ char S[maxN];
 bool used[maxN], inZ[2][maxN];
 int N, cnt, mt[maxN];
 vector<int> G[maxN];
- 
+
 bool kuhns(int u){
     if(used[u]) return false;
-    
+
     used[u] = true;
     for(int v : G[u]){
         if(!mt[v] || kuhns(mt[v])){
@@ -19,7 +19,7 @@ bool kuhns(int u){
             return true;
         }
     }
-    
+
     return false;
 }
 
@@ -42,12 +42,12 @@ int main(){
             if(S[j-1] == 'o')
                 G[j].push_back(i);
     }
-    
+
     for(int i = 1; i <= N; i++){
         kuhns(i);
         fill(used+1, used+N+1, false);
     }
-    
+
     cnt = 0;
     for(int i = 1; i <= N; i++){
         if(mt[i]){
@@ -55,11 +55,11 @@ int main(){
             used[mt[i]] = true;
         }
     }
-    
+
     for(int i = 1; i <= N; i++)
         if(!used[i])
             dfs(1, i);
-    
+
     printf("%d\n", cnt);
     for(int i = 1; i <= N; i++)
         if(inZ[0][i])

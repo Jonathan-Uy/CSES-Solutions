@@ -29,7 +29,7 @@ int main(){
         scanf("%d", &B[i]);
         idx[B[i]] = i;
     }
-    
+
     int root = solve();
     dfs(root);
     for(int i = 0; i < N; i++)

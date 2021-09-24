@@ -5,14 +5,14 @@ using namespace std;
 const int N = 9;
 const int x[] = {0, 1, 2, 3, 4, 5, 1, 2, 4, 5, 7, 8};
 const int y[] = {3, 4, 5, 6, 7, 8, 0, 1, 3, 4, 6, 7};
- 
+
 unordered_map<string,int> dist;
 queue<string> Q;
 string perm;
- 
+
 void init(){
     perm = "123456789";
-    
+
     dist[perm] = 1;
     Q.push(perm);
     while(!Q.empty()){
@@ -28,7 +28,7 @@ void init(){
         }
     }
 }
- 
+
 int main(){
     init();
     for(int i = 0; i < N; i++)

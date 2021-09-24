@@ -19,7 +19,7 @@ int main(){
         scanf("%d %d", &a, &b);
         G[a-1].push_back(b-1);
     }
-    
+
     dp[0][1] = 1;
     Q.push({0, 1});
     inqueue[0][1] = true;
@@ -27,13 +27,13 @@ int main(){
         int u = Q.front().first;
         int mask = Q.front().second;
         Q.pop();
-        
+
         if(u != N-1){
             for(int v : G[u]){
                 int newMask = mask|(1<<v);
                 if((mask&(1<<v)) == 0){
                     dp[v][newMask] += dp[u][mask];
-                    dp[v][newMask] %= MOD; 
+                    dp[v][newMask] %= MOD;
                     if(!inqueue[v][newMask]){
                         Q.push({v, newMask});
                         inqueue[v][newMask] = true;
@@ -42,6 +42,6 @@ int main(){
             }
         }
     }
-    
+
     printf("%lld\n", dp[N-1][(1<<N)-1]);
 }

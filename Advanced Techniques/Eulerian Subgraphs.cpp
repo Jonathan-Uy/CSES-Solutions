@@ -24,7 +24,7 @@ bool merge(int u, int v){
 int main(){
     scanf("%d %d", &N, &M);
     fill(ds+1, ds+N+1, -1);
-    ans = 1;    
+    ans = 1;
     for(int i = 0, a, b; i < M; i++){
         scanf("%d %d", &a, &b);
         if(!merge(a, b))

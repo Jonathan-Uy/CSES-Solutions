@@ -26,7 +26,7 @@ void dfs(int u, int p = -1){
             } else if(in[v] < in[u]){
                 even[u] ^= true;
                 ans[id] = {u, v};
-            } 
+            }
         }
     }
 }

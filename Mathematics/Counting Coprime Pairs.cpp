@@ -28,20 +28,20 @@ void compute(int x){
             pf.push_back(x);
             break;
         }
-        
+
         if(x % p)   continue;
         pf.push_back(p);
         while(x % p == 0)
             x /= p;
     }
-    
+
     int K = (int) pf.size();
     for(int mask = 0; mask < (1<<K); mask++){
         int mu = 1;
         for(int i = 0; i < K; i++)
             if(mask&(1<<i))
                 mu *= pf[i];
-        
+
         int k = __builtin_popcount(mask);
         ans += (k&1 ? -dp[mu] : dp[mu]);
         dp[mu]++;

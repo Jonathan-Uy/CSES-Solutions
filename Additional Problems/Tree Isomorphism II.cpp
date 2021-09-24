@@ -58,7 +58,7 @@ void solve_case(){
         }
         dfs1(t, 1, -1);
     }
-    
+
     for(int root1 : centroids[0]){
         for(int root2 : centroids[1]){
             dfs2(0, root1, -1);

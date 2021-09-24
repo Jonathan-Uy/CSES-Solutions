@@ -40,29 +40,29 @@ int main(){
     scanf("%d", &N);
     for(int i = 1; i <= N; i++)
         scanf("%d", &x[i]);
-    
+
     int K = N;
     ans[3] = N;
     fill(ds+1, ds+N+1, -1);
     for(int i = 1; i <= N; i++){
         ans[0] += (i-query(x[i])-1);
         update(x[i], 1);
-        
+
         if(!merge(i, x[i]))
             ans[1] += (-ds[find(i)]-1);
-        
+
         S.insert(x[i]);
         it = S.lower_bound(x[i]);
         if(++it != S.end())
             S.erase(it);
-        
+
         if(x[N-i+1] == K){
             K--;
             ans[3]--;
         }
     }
     ans[2] = N - (int) S.size();
-    
+
     for(int i = 0; i < 4; i++)
         printf("%lld%c", ans[i], (" \n")[i==3]);
 }

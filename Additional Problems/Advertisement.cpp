@@ -11,7 +11,7 @@ int main(){
     scanf("%d", &N);
     for(int i = 1; i <= N; i++)
         scanf("%lld", &a[i]);
-    
+
     for(int i = 1; i <= N; i++){
         l[i] = i-1;
         while(a[l[i]] >= a[i])
@@ -22,7 +22,7 @@ int main(){
         while(a[r[i]] >= a[i])
             r[i] = r[r[i]];
     }
-    
+
     for(int i = 1; i <= N; i++)
         best = max(best, (r[i]-l[i]-1)*a[i]);
     printf("%lld\n", best);

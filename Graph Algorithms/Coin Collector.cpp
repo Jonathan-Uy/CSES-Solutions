@@ -39,7 +39,7 @@ int main(){
     scanf("%d %d", &N, &M);
     for(int i = 1; i <= N; i++)
         scanf("%d", &k[i]);
-    
+
     for(int i = 0, a, b; i < M; i++){
         scanf("%d %d", &a, &b);
         G[a].push_back(b);
@@ -49,7 +49,7 @@ int main(){
     for(int i = 1; i <= N; i++)
         if(!vis[i])
             dfs1(i);
-    
+
     fill(vis+1, vis+N+1, false);
     reverse(ord.begin(), ord.end());
     for(int u : ord){
@@ -73,7 +73,7 @@ int main(){
     for(int i = 1; i <= K; i++)
         if(!vis[i])
             dfs3(i);
-    
+
     ll best = 0;
     for(int i = 1; i <= K; i++)
         best = max(best, dp[i]);

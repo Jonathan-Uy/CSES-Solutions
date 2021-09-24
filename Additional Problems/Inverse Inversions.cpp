@@ -12,7 +12,7 @@ int main(){
     scanf("%d %lld", &N, &K);
     for(int i = 1; i <= N; i++)
         DQ.push_back(i);
-    
+
     for(int k = N-1; k >= 0; k--){
         if(k <= K){
             ans[++idx] = DQ.back();
@@ -23,7 +23,7 @@ int main(){
             DQ.pop_front();
         }
     }
-    
+
     for(int i = 1; i <= idx; i++)
         printf("%d%c", ans[i], (" \n")[i==idx]);
 }

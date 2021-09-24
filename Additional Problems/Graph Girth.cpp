@@ -39,12 +39,12 @@ int main(){
         G[a].push_back(b);
         G[b].push_back(a);
     }
-    
+
     best = N+1;
     for(int start = 1; start <= N; start++){
         reset();
         bfs(start);
     }
-    
+
     printf("%d\n", best == N+1 ? -1 : best);
 }

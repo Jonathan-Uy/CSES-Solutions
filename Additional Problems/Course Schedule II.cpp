@@ -14,11 +14,11 @@ int main(){
         G[b].push_back(a);
         in[a]++;
     }
-    
+
     for(int i = 1; i <= N; i++)
         if(in[i] == 0)
             Q.push(i);
-    
+
     idx = N;
     while(!Q.empty()){
         int u = Q.top(); Q.pop();
@@ -29,7 +29,7 @@ int main(){
                 Q.push(v);
         }
     }
-    
+
     for(int i = 1; i <= N; i++)
         printf("%d%c", ans[i], (" \n")[i==N]);
 }

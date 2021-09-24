@@ -75,7 +75,7 @@ void dfs(int u = 0){
 int main(){
     scanf(" %s", S);
     N = strlen(S);
-    
+
     init();
     for(int i = 0; i < N; i++)
         extend(S[i]);
@@ -83,7 +83,7 @@ int main(){
 
     bestlen = -1;
     dfs();
-    
+
     if(bestlen == -1)   printf("-1\n");
     else {
         for(int i = 0; i < bestlen; i++)

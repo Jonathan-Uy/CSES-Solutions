@@ -10,7 +10,7 @@ void solve(){
         printf("IMPOSSIBLE\n");
         return;
     }
-    
+
     vector<int> ans;
     int l = 1, r = K;
     while(true){

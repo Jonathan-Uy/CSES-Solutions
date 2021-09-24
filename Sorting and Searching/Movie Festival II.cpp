@@ -62,17 +62,17 @@ int main(){
     sort(movies, movies+2*N, [](Movie a, Movie b){
         return a.t == b.t ? A[a.id] > A[b.id] : a.t < b.t;
     });
-    
+
     for(int i = 0; i < 2*N; i++)
         mp[movies[i].t] = i+1;
-    
+
     init(1, 1, 2*N);
     for(int i = 0; i < 2*N; i++){
         if(movies[i].type == 1){
             int id = movies[i].id;
             int a = mp[A[id]];
             int b = mp[B[id]];
-            
+
             if(maximum(1, a+1, b) < K){
                 increment(1, a, b);
                 ans++;

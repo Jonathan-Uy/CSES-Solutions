@@ -53,20 +53,20 @@ int query(int a, int b){
 
     // Start and end are on different components
     if(comp[a] != comp[b])  return -1;
-    
+
     // Start is on cycle
     if(cyc[a]){
         if(!cyc[b]) return -1;
         return (d[a]-d[b]+cyc[a]) % cyc[a];
     }
-    
+
     // Start and end are on tree (must check if same tree)
     if(!cyc[b]){
         if(d[a] <= d[b])    return -1;
         int dist = d[a]-d[b];
         return (travel(a, dist) == b) ? dist : -1;
     }
-    
+
     // Start is on tree and end is on cycle
     int root = a;
     for(int i = logN-1; i >= 0; i--){
@@ -75,7 +75,7 @@ int query(int a, int b){
             root = par;
     }
     root = p[0][root];
-    
+
     return (d[a]-d[root]) + query(root, b);
 }
 
@@ -89,12 +89,12 @@ int main(){
         if(!merge(x, i))
             cycleSeeds.push_back(x);
     }
-    
+
     init_parents();
     int compID = 1;
     for(int seed : cycleSeeds)
         dfs(seed, compID++);
-    
+
     for(int i = 0, a, b; i < Q; i++){
         scanf("%d %d", &a, &b);
         printf("%d\n", query(a, b));

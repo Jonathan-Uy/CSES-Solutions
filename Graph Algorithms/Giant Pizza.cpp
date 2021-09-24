@@ -48,7 +48,7 @@ int main(){
     for(int i = 1; i <= 2*N; i++)
         if(!vis[i])
             dfs1(i);
-    
+
     fill(vis+1, vis+2*N+1, false);
     reverse(ord.begin(), ord.end());
     for(int u : ord){
@@ -79,7 +79,7 @@ int main(){
             }
         }
     }
-    
+
     queue<int> Q;
     ord.clear();
     for(int u = 1; u <= K; u++){

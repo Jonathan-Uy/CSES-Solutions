@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
- 
+
 using namespace std;
 typedef long long ll;
 const int maxN = 1e5+5;
- 
+
 struct Node {
     ll dp;
     int len, cnt, link;
@@ -14,14 +14,14 @@ vector<char> ans;
 char S[maxN];
 int N, sz, last;
 ll K;
- 
+
 void init(){
     node[0].len = 0;
     node[0].link = -1;
     sz = 1;
     last = 0;
 }
- 
+
 void extend(char c){
     int cur = sz++;
     node[cur].cnt = 1;
@@ -85,13 +85,13 @@ void dfs(int u, ll k){
 int main(){
     scanf(" %s %lld", S, &K);
     N = strlen(S);
-    
+
     init();
     for(int i = 0; i < N; i++)
         extend(S[i]);
     update_cnts();
     calc();
-    
+
     dfs(0, K-1);
     int M = (int) ans.size();
     for(int i = 0; i < M; i++)

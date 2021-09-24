@@ -51,13 +51,13 @@ int main(){
             B[N-i-1] += 1;
         }
     }
-    
+
     fft(A, false);
     fft(B, false);
     for(int i = 0; i < SIZE; i++)
         A[i] *= B[i];
     fft(A, true);
-    
+
     for(int i = N; i < 2*N-1; i++)
         printf("%lld%c", llround(A[i].real()), (" \n")[i==2*N-2]);
 }

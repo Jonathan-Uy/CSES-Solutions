@@ -76,7 +76,7 @@ bool palindrome(int a, int b){
 
 int main(){
     scanf("%d %d %s", &N, &K, S);
-    
+
     init();
     for(int i = 0, t, a, b; i < K; i++){
         char c;

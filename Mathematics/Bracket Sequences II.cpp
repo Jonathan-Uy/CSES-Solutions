@@ -36,23 +36,23 @@ int main(){
     scanf("%d %s", &N, S);
     M = strlen(S);
     init();
-    
+
     int open = 0, closed = 0;
     for(int i = 0; i < M; i++){
         if(S[i] == '(')         open++;
         else if(S[i] == ')')    closed++;
-        
+
         if(closed > open){
             printf("0\n");
             return 0;
         }
     }
-    
+
     if(N&1 || open > N/2){
         printf("0\n");
         return 0;
     }
-    
+
     tot = choose(N-open-closed, N/2-open);
     bad = choose(N-open-closed, N/2-open-1);
     printf("%lld\n", ((tot-bad)%MOD+MOD)%MOD);

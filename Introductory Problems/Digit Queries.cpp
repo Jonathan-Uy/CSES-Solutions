@@ -15,13 +15,13 @@ ll pow10(int x){
 
 int solve(ll N){
     if(N < 9)   return (int) N+1;
-    
+
     int len = 1;
     while(9 * pow10(len-1) * len < N){
         N -= 9 * pow10(len-1) * len;
         len++;
     }
-    
+
     string S = to_string(pow10(len-1) + N/len);
     return (int) (S[N%len] - '0');
 }

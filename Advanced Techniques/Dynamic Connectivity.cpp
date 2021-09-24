@@ -1,27 +1,27 @@
 #include <bits/stdc++.h>
- 
+
 using namespace std;
 typedef pair<int,int> pii;
 typedef array<int,3> triple;
 const int maxN = 1e5+1;
 const int SIZE = 3e5+1;
 const int INF = 0x3f3f3f3f;
- 
+
 int N, M, K, root, components, del_time[SIZE];
 bool used[SIZE];
 pii edges[SIZE];
 triple ops[maxN];
 map<pii,deque<int>> edge_id_map;
- 
+
 struct Node {
     bool rev = false;
     Node *c[2] = {nullptr, nullptr}, *p = nullptr;
     int mn, id;
-    
+
     Node(int i){
         mn = id = i;
     }
-    
+
     void push(){
         if(rev){
             swap(c[0], c[1]);
@@ -30,7 +30,7 @@ struct Node {
             rev = false;
         }
     }
-    
+
     void pull(){
         mn = id;
         for(int i = 0; i < 2; i++)
@@ -38,11 +38,11 @@ struct Node {
                 mn = c[i]->mn;
     }
 } *LCT[SIZE];
- 
+
 bool notRoot(Node *t){
     return t->p && (t->p->c[0] == t || t->p->c[1] == t);
 }
- 
+
 void rotate(Node *t){
     Node *p = t->p;
     bool b = (p->c[0] == t);
@@ -52,8 +52,8 @@ void rotate(Node *t){
     p->p = t;
     p->pull();
 }
- 
- 
+
+
 void splay(Node *t){
     while(notRoot(t)){
         Node *p = t->p;
@@ -64,7 +64,7 @@ void splay(Node *t){
     t->push();
     t->pull();
 }
- 
+
 Node* access(Node *t){
     Node *last = nullptr;
     for(Node *u = t; u; u = u->p){
@@ -75,17 +75,17 @@ Node* access(Node *t){
     splay(t);
     return last;
 }
- 
+
 void evert(Node *t){
     access(t);
     t->rev = true;
 }
- 
+
 void link(Node *u, Node *v){
     evert(u);
     u->p = v;
 }
- 
+
 void cut(Node *u, Node *v){
     evert(u);
     access(v);
@@ -93,20 +93,20 @@ void cut(Node *u, Node *v){
     v->c[0] = 0;
     v->pull();
 }
- 
+
 Node* path(Node *u, Node *v){
     evert(u);
     access(v);
     return v;
 }
- 
+
 bool connected(Node *u, Node *v){
     path(u, v);
     while(v->c[0])
         v = v->c[0];
     return u == v;
 }
- 
+
 void create_edge(int u, int v){
     int id = edge_id_map[{u, v}].front();
     if(!connected(LCT[u], LCT[v])){
@@ -128,7 +128,7 @@ void create_edge(int u, int v){
         }
     }
 }
- 
+
 void destroy_edge(int u, int v){
     int id = edge_id_map[{u, v}].front();
     edge_id_map[{u, v}].pop_front();
@@ -138,16 +138,16 @@ void destroy_edge(int u, int v){
     used[id] = false;
     components++;
 }
- 
+
 int main(){
     scanf("%d %d %d", &N, &M, &K);
-    
+
     root = 1;
     for(int i = 1; i <= N; i++){
         LCT[i] = new Node(i);
         del_time[i] = INF;
     }
-    
+
     for(int i = 1, a, b; i <= M; i++){
         scanf("%d %d", &a, &b);
         if(a > b)   swap(a, b);
@@ -156,13 +156,13 @@ int main(){
         LCT[N+i] = new Node(N+i);
         edge_id_map[{a, b}].push_back(N+i);
     }
-    
+
     for(int i = 1, t, a, b; i <= K; i++){
         scanf("%d %d %d", &t, &a, &b);
         if(a > b)   swap(a, b);
         ops[i] = {t, a, b};
         edges[N+M+i] = {a, b};
-        
+
         if(t == 2){
             int id = edge_id_map[{a, b}].back();
             del_time[id] = i;
@@ -172,7 +172,7 @@ int main(){
             edge_id_map[{a, b}].push_back(N+M+i);
         }
     }
-    
+
     components = N;
     for(int i = N+1; i <= N+M; i++){
         int u = edges[i].first;
@@ -180,7 +180,7 @@ int main(){
         create_edge(u, v);
     }
     printf("%d ", components);
-    
+
     for(int i = 1; i <= K; i++){
         int t = ops[i][0];
         int u = ops[i][1];

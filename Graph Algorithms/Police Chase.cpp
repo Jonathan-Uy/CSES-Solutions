@@ -12,14 +12,14 @@ vector<int> G[maxN];
 int bfs(int s = 1, int t = N){
     fill(p+1, p+N+1, -1);
     p[s] = -2;
-    
+
     queue<pii> Q;
     Q.push({s, INF});
     while(!Q.empty()){
         int u = Q.front().first;
         int f = Q.front().second;
         Q.pop();
-        
+
         for(int v : G[u]){
             if(p[v] == -1 && cap[u][v]){
                 p[v] = u;
@@ -29,7 +29,7 @@ int bfs(int s = 1, int t = N){
             }
         }
     }
-    
+
     return 0;
 }
 

@@ -43,7 +43,7 @@ void update(int idx){
     int i = mp[idx];
     dp[0][i] *= -1;
     dp[1][i] = dp[0][i];
-    
+
     i >>= 1;
     while(i){
         pull(i);

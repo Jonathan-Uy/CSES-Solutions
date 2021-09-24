@@ -17,7 +17,7 @@ int main(){
 
     for(int i = A; i <= B; i++)
         S.insert(pre[i]);
-    
+
     ll best = *S.rbegin();
     for(int i = 1; i+A <= N; i++){
         S.erase(pre[i+A-1]);

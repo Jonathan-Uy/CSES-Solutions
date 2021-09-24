@@ -19,7 +19,7 @@ void bellman_ford(int start = 0){
     fill(inq, inq+maxN, false);
     fill(d, d+maxN, INF);
     fill(p, p+maxN, 0);
-    
+
     queue<int> Q;
     Q.push(start);
     d[start] = 0;
@@ -27,7 +27,7 @@ void bellman_ford(int start = 0){
     while(!Q.empty()){
         int u = Q.front(); Q.pop();
         inq[u] = false;
-        
+
         for(int i : G[u]){
             Edge e = (i < 0 ? redges[-i] : edges[i]);
             if(e.r > 0 && d[e.v] > d[u] + e.c){
@@ -47,7 +47,7 @@ ll minimum_cost_flow(){
     while(flow < N){
         bellman_ford();
         if(d[2*N+1] == INF) break;
-        
+
         ll aug = N-flow;
         int u = 2*N+1;
         while(u != 0){
@@ -55,7 +55,7 @@ ll minimum_cost_flow(){
             aug = min(aug, e.r);
             u = e.u;
         }
-        
+
         flow += aug;
         cost += aug * d[2*N+1];
         u = 2*N+1;
@@ -112,7 +112,7 @@ int main(){
         redges[edgeID] = {2*N+1, u, 0, 0};
         edgeID++;
     }
-    
+
     printf("%lld\n", minimum_cost_flow());
     for(int i = 0; i < N; i++){
         path.clear();

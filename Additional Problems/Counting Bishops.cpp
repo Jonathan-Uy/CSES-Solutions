@@ -51,10 +51,10 @@ void init_choose(){
 
 ll calculate(int n, int k){
     if(n == 1)      return 1;
-    if(k >= 2*n)    return 0; 
+    if(k >= 2*n)    return 0;
     memset(B, 0, sizeof(B));
     memset(W, 0, sizeof(W));
-    
+
     int m = n/2, odd = n&1;
     for(int k = 0; k <= m+odd; k++){
         compute_T(2*m-1-k+odd);
@@ -67,7 +67,7 @@ ll calculate(int n, int k){
             W[i+k] %= MOD;
         }
     }
-    
+
     ll sum = 0;
     for(int b = 0; b <= min(N-1, K); b++){
         int w = K-b;

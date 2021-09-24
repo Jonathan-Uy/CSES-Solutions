@@ -60,7 +60,7 @@ void calc(int u = 0){
 int main(){
     scanf(" %s", S);
     N = strlen(S);
-    
+
     init();
     for(int i = 0; i < N; i++)
         extend(S[i]);

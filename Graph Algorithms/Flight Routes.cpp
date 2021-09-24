@@ -28,7 +28,7 @@ int main(){
             printf("%lld%c", d, (" \n")[cnt[u]==K]);
             if(cnt[u] == K) return 0;
         }
-        
+
         if(cnt[u] <= K){
             for(edge e : G[u]){
                 int v = e.first;
