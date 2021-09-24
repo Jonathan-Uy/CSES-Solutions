@@ -8,8 +8,8 @@ char a[maxN], b[maxN];
 
 int main(){
     scanf("%s %s", a, b);
-    N = strlen(a);
-    M = strlen(b);
+    N = (int) strlen(a);
+    M = (int) strlen(b);
 
     memset(dp, 0x3f, sizeof(dp));
     for(int i = 0; i <= N; i++){

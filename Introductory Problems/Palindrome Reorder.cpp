@@ -7,7 +7,7 @@ int N, odd, freq[26];
 
 int main(){
     scanf("%s", S);
-    N = strlen(S);
+    N = (int) strlen(S);
     for(int i = 0; i < N; i++)
         freq[(int) (S[i]-'A')]++;
 

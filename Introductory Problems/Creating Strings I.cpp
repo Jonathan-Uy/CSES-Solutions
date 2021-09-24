@@ -8,7 +8,7 @@ set<string> perms;
 
 int main(){
     scanf("%s", S);
-    N = strlen(S);
+    N = (int) strlen(S);
     sort(S, S+N);
 
     perms.insert(S);

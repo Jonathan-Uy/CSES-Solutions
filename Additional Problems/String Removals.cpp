@@ -11,7 +11,7 @@ char S[maxN];
 
 int main(){
     scanf(" %s", S);
-    N = strlen(S);
+    N = (int) strlen(S);
     for(int i = 0; i < N; i++){
         int c = (int) (S[i] - 'a');
         dp[c]++;

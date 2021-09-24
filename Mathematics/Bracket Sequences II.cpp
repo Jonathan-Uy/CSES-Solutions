@@ -34,7 +34,7 @@ void init(){
 
 int main(){
     scanf("%d %s", &N, S);
-    M = strlen(S);
+    M = (int) strlen(S);
     init();
 
     int open = 0, closed = 0;

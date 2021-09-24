@@ -8,7 +8,7 @@ int N, bestl, bestr, d1[maxN], d2[maxN];
 
 int main(){
     scanf(" %s", S);
-    N = strlen(S);
+    N = (int) strlen(S);
 
     for(int i = 0, l = 0, r = -1; i < N; i++){
         int k = (i > r ? 1 : min(d1[l+r-i], r-i+1));

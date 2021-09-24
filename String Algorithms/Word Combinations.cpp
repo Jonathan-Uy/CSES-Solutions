@@ -20,7 +20,7 @@ void init(){
 
 void hashWord(){
     scanf(" %s", word);
-    int N = strlen(word);
+    int N = (int) strlen(word);
     if(N >= maxN)    return;
 
     ll h1 = 0, h2 = 0;
@@ -40,7 +40,7 @@ int main(){
         hashWord();
 
     dp[0] = 1;
-    int N = strlen(S);
+    int N = (int) strlen(S);
     ll h1 = 0, h2 = 0;
     for(int r = 1; r <= N; r++){
         int c = (int) (S[r-1] - 'a' + 1);

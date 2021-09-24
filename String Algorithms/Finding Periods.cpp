@@ -24,7 +24,7 @@ void init(){
 
 int main(){
     scanf(" %s", S);
-    N = strlen(S);
+    N = (int) strlen(S);
     init();
 
     for(int len = 1; len <= N; len++){

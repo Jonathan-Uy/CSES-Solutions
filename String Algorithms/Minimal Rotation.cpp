@@ -9,11 +9,11 @@ char S[maxN];
 int main(){
     scanf("%s", S);
 
-    N = strlen(S);
+    N = (int) strlen(S);
     for(int i = 0; i < N; i++)
         S[i+N] = S[i];
 
-    N = strlen(S);
+    N = (int) strlen(S);
     fill(F, F+N, -1);
 
     int k = 0;

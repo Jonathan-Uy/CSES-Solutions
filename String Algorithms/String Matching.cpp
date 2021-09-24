@@ -13,7 +13,7 @@ char S[maxN], T[maxN];
 
 int main(){
     scanf("%s %s", S, T);
-    N = strlen(S); M = strlen(T);
+    N = (int) strlen(S); M = (int) strlen(T);
 
     if(M > N){
         printf("0\n");

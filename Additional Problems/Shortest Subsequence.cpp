@@ -20,7 +20,7 @@ int main(){
     init();
     scanf(" %s", S);
 
-    N = strlen(S);
+    N = (int) strlen(S);
     for(int i = 0; i < N; i++){
         int c = mp[S[i]];
         if(!has[c]){

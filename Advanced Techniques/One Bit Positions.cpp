@@ -44,7 +44,7 @@ void fft(vector<cd> &a, bool inv){
 
 int main(){
     scanf(" %s", S);
-    int N = strlen(S);
+    int N = (int) strlen(S);
     for(int i = 0; i < N; i++){
         if(S[i] == '1'){
             A[i] += 1;

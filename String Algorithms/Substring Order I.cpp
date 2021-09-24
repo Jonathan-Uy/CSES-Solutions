@@ -73,7 +73,7 @@ void dfs(int u, ll k){
 
 int main(){
     scanf(" %s %lld", S, &K);
-    N = strlen(S);
+    N = (int) strlen(S);
 
     init();
     for(int i = 0; i < N; i++)

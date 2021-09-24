@@ -55,7 +55,7 @@ ll solve(int l, int r){
 
 int main(){
     scanf(" %s", S);
-    N = strlen(S);
+    N = (int) strlen(S);
     init();
     printf("%lld\n", N&1 ? 0 : solve(0, N-1));
 }

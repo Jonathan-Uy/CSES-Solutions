@@ -70,7 +70,7 @@ int query(){
 
 int main(){
     scanf(" %s %d", S, &K);
-    N = strlen(S);
+    N = (int) strlen(S);
 
     init();
     for(int i = 0; i < N; i++)
@@ -79,7 +79,7 @@ int main(){
 
     for(int i =  0; i < K; i++){
         scanf(" %s", T);
-        M = strlen(T);
+        M = (int) strlen(T);
         printf("%d\n", query());
     }
 }

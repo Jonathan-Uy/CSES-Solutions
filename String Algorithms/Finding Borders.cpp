@@ -13,7 +13,7 @@ char S[maxN];
 
 int main(){
     scanf("%s", S);
-    N = strlen(S);
+    N = (int) strlen(S);
 
     pow1[0] = pow2[0] = 1;
     for(int i = 1; i < N; i++){

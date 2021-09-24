@@ -57,7 +57,7 @@ int query(){
 
 int main(){
     scanf("%s %d", S, &M);
-    N = strlen(S);
+    N = (int) strlen(S);
     init(1, 1, N);
     for(int i = 0, x; i < M; i++){
         scanf("%d", &x);

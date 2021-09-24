@@ -8,7 +8,7 @@ int N, z[maxN], pi[maxN];
 
 int main(){
     scanf(" %s", S);
-    N = strlen(S);
+    N = (int) strlen(S);
 
     for(int i = 1, l = 0, r = 0; i < N; i++){
         if(i <= r)  z[i] = min(r-i+1, z[i-l]);
