@@ -41,7 +41,7 @@ void increment(int i, int l, int r){
 }
 
 int maximum(int i, int l, int r){
-    if(l > hi[i] || r < lo[i])      return INF;
+    if(l > hi[i] || r < lo[i])      return -INF;
     if(l <= lo[i] && hi[i] <= r)    return mx[i]+d[i];
 
     push(i);
