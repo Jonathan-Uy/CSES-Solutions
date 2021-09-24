@@ -1,9 +1,10 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-const int maxN = 2e5;
+const int maxN = 2e5, SIZE = 4*maxN;
+const int INF = 0x3f3f3f3f;
 
-int N, Q, t, a, b, lo[4*maxN], hi[4*maxN], mn[4*maxN];
+int N, Q, t, a, b, lo[SIZE], hi[SIZE], mn[SIZE];
 
 void push(int i){
 
@@ -38,7 +39,7 @@ void assign(int i, int l, int r, int v){
 }
 
 int minimum(int i, int l, int r){
-    if(l > hi[i] || r < lo[i])      return INT_MAX;
+    if(l > hi[i] || r < lo[i])      return INF;
     if(l <= lo[i] && hi[i] <= r)    return mn[i];
 
     push(i);

@@ -2,6 +2,7 @@
 
 using namespace std;
 const int maxN = 1000;
+const int INF = 0x3f3f3f3f;
 
 int h[] = {1, -1, 0, 0};
 int v[] = {0, 0, 1, -1};
@@ -62,7 +63,7 @@ int main(){
 
     for(int i = 0; i < N; i++){
         for(int j = 0; j < M; j++){
-            if(!vis[i][j])  d1[i][j] = INT_MAX;
+            if(!vis[i][j])  d1[i][j] = INF;
             vis[i][j] = (c[i][j] == '#');
         }
     }

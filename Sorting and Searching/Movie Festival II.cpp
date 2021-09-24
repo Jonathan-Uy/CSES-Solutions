@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-const int maxN = 2e5;
-const int SIZE = 5e6;
+const int maxN = 2e5, SIZE = 5e6;
+const int INF = 0x3f3f3f3f;
 
 int N, K, ans, A[maxN], B[maxN], lo[SIZE], hi[SIZE], d[SIZE], mx[SIZE];
 struct Movie { int t, id, type; } movies[2*maxN];
@@ -41,7 +41,7 @@ void increment(int i, int l, int r){
 }
 
 int maximum(int i, int l, int r){
-    if(l > hi[i] || r < lo[i])      return INT_MIN;
+    if(l > hi[i] || r < lo[i])      return INF;
     if(l <= lo[i] && hi[i] <= r)    return mx[i]+d[i];
 
     push(i);

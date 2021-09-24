@@ -2,12 +2,13 @@
 
 using namespace std;
 const int maxN = 1e6;
+const int INF = 0x3f3f3f3f;
 
 int N, dp[maxN+1];
 
 int main(){
     scanf("%d", &N);
-    fill(dp+1, dp+N+1, INT_MAX);
+    fill(dp+1, dp+N+1, INF);
 
     for(int i = 1; i <= N; i++){
         int d = i;

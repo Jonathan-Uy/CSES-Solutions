@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-const int maxN = 2e5+1;
-const int SIZE = 4*maxN;
+const int maxN = 2e5+1, SIZE = 4*maxN;
+const int INF = 0x3f3f3f3f;
 
 int N, Q, p[maxN], mp[maxN], lo[SIZE], hi[SIZE], mn[2][SIZE];
 
@@ -38,7 +38,7 @@ void update(int idx, int val){
 }
 
 int query(int i, int t, int l, int r){
-    if(l > hi[i] || r < lo[i])      return INT_MAX;
+    if(l > hi[i] || r < lo[i])      return INF;
     if(l <= lo[i] && hi[i] <= r)    return mn[t][i];
 
     int left = query(2*i, t, l, r);

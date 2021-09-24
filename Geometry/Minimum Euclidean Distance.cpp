@@ -70,7 +70,7 @@ int main(){
         return P[A].second < P[B].second;
     });
 
-    best = LONG_MAX;
+    best = LLONG_MAX;
     solve(sortedX, sortedY);
     printf("%lld\n", best);
 }
