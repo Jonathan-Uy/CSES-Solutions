@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of September 21th, the following number of solutions have been completed:
+Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of October 10th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -14,8 +14,8 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     16/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     47/77     |
-| **Total**             |  **269/300**  |
+| Additional Problems   |     48/77     |
+| **Total**             |  **270/300**  |
 
 # Table of Contents
 
@@ -323,7 +323,7 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. Removing Digits II
 1. Coin Arrangement
 1. [Counting Bishops](/Additional%20Problems/Counting%20Bishops.cpp)
-1. Grid Puzzle I
+1. [Grid Puzzle I](/Additional%20Problems/Grid%20Puzzle%20I.cpp)
 1. Grid Puzzle II
 1. [Empty String](/Additional%20Problems/Empty%20String.cpp)
 1. [Grid Paths](/Additional%20Problems/Grid%20Paths%20III.cpp)
