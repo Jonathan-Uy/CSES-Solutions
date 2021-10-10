@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of October 10th, the following number of solutions have been completed:
+Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of October 10th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -11,11 +11,11 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     16/16     |
 | Mathematics           |     31/31     |
-| String Algorithms     |     16/17     |
+| String Algorithms     |     17/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
 | Additional Problems   |     48/77     |
-| **Total**             |  **270/300**  |
+| **Total**             |  **271/300**  |
 
 # Table of Contents
 
@@ -221,7 +221,7 @@ Over 260 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Finding Periods](/String%20Algorithms/Finding%20Periods.cpp)
 1. [Minimal Rotation](/String%20Algorithms/Minimal%20Rotation.cpp)
 1. [Longest Palindrome](/String%20Algorithms/Longest%20Palindrome.cpp)
-1. Required Substring
+1. [Required Substring](/String%20Algorithms/Required%20Substring.cpp)
 1. [Palindrome Queries](/String%20Algorithms/Palindrome%20Queries.cpp)
 1. [Finding Patterns](/String%20Algorithms/Finding%20Patterns.cpp)
 1. [Counting Patterns](/String%20Algorithms/Counting%20Patterns.cpp)
