@@ -6,7 +6,7 @@ const int maxN = 40;
 
 int N, t[maxN];
 ll x, sum, cnt;
-map<ll,int> freq;
+unordered_map<ll,int> freq;
 
 int main(){
     scanf("%d %lld", &N, &x);
@@ -15,17 +15,17 @@ int main(){
     sort(t, t+N);
 
     if(N == 1){
-        if(x == t[0])   printf("1\n");
-        else            printf("0\n");
+        printf("%d\n", x == t[0]);
         return 0;
     }
 
+    freq.reserve(1<<(N/2-1));
     for(int i = 0; i < (1<<(N/2-1)); i++){
         sum = 0;
         for(int j = 0; j < N/2-1; j++)
             if(i&(1<<j))
                 sum += t[j];
-        freq[sum] = freq[sum]+1;
+        freq[sum]++;
     }
 
     for(int i = 0; i < (1<<((N+1)/2+1)); i++){
