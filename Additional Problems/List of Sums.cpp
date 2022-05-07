@@ -23,6 +23,14 @@ bool check(ll a0){
         A[i] = *Bvals.begin() - A[0];
     }
 
+    // Confirm that the last element, A[N-1], works. We desire
+    // the sum with the other A[i] to produce the remaining Bvals
+    for(int j = 0; j < N-1; j++){
+        if(Bvals.find(A[j]+A[N-1]) == Bvals.end())
+            return false;
+        Bvals.erase(Bvals.lower_bound(A[j]+A[N-1]));
+    }
+
     return true;
 }
 
