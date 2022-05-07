@@ -4,7 +4,7 @@ using namespace std;
 typedef long long ll;
 const int maxN = 1e5;
 
-struct Edge {int v; ll w; };
+struct Edge { int v; ll w; };
 struct Node {
     int id; ll dist;
     friend bool operator<(const Node &a, const Node &b){
