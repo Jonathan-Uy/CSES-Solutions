@@ -4,8 +4,7 @@ using namespace std;
 const int maxN = 501, maxM = 1001;
 const int INF = 0x3f3f3f3f;
 
-int N, M, K, p[maxN];
-int d[maxN], cap[maxN][maxN], cost[maxN][maxN];
+int N, M, K, p[maxN], d[maxN];
 bool inq[maxN], vis[maxM];
 vector<int> path, G[maxN];
 
