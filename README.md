@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of October 10th, the following number of solutions have been completed:
+Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of June 28th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -14,8 +14,8 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     17/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     48/77     |
-| **Total**             |  **271/300**  |
+| Additional Problems   |     50/77     |
+| **Total**             |  **273/300**  |
 
 # Table of Contents
 
@@ -308,7 +308,7 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. Cyclic Array
 1. [List of Sums](/Additional%20Problems/List%20of%20Sums.cpp)
 1. Increasing Array II
-1. Food Division
+1. [Food Division](/Additional%20Problems/Food%20Division.cpp)
 1. Bit Problem
 1. Swap Round Sorting
 1. Binary Subsequences
