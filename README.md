@@ -14,8 +14,8 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     17/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     50/77     |
-| **Total**             |  **273/300**  |
+| Additional Problems   |     51/77     |
+| **Total**             |  **274/300**  |
 
 # Table of Contents
 
@@ -307,7 +307,7 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Sorting Methods](/Additional%20Problems/Sorting%20Methods.cpp)
 1. Cyclic Array
 1. [List of Sums](/Additional%20Problems/List%20of%20Sums.cpp)
-1. Increasing Array II
+1. [Increasing Array II](/Additional%20Problems/Increasing%20Array%20II.cpp)
 1. [Food Division](/Additional%20Problems/Food%20Division.cpp)
 1. Bit Problem
 1. Swap Round Sorting
