@@ -324,7 +324,7 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. Coin Arrangement
 1. [Counting Bishops](/Additional%20Problems/Counting%20Bishops.cpp)
 1. [Grid Puzzle I](/Additional%20Problems/Grid%20Puzzle%20I.cpp)
-1. Grid Puzzle II
+1. [Grid Puzzle II](/Additional%20Problems/Grid%20Puzzle%20II.cpp)
 1. [Empty String](/Additional%20Problems/Empty%20String.cpp)
 1. [Grid Paths](/Additional%20Problems/Grid%20Paths%20III.cpp)
 1. Bit Substrings
