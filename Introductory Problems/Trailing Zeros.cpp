@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int N, ans;
+int N, ans=0;
 
 int main(){
     scanf("%d", &N);
