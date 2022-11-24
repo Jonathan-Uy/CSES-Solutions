@@ -27,7 +27,7 @@ int main(){
         for(int j = 0; j < freq[i]/2; j++)
             printf("%c", (char) (i+'A'));
     if(odd != -1)
-        printf("%c", (char) (odd+'A'));
+        for(int i=0; i<freq[i]; i++) printf("%c", (char) (odd+'A'));
     for(int i = 25; i >= 0; i--)
         for(int j = 0; j < freq[i]/2; j++)
             printf("%c", (char) (i+'A'));
