@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of June 28th, the following number of solutions have been completed:
+Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of December 18th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -11,10 +11,10 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     16/16     |
 | Mathematics           |     31/31     |
-| String Algorithms     |     17/17     |
+| String Algorithms     |     16/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     51/77     |
+| Additional Problems   |     52/77     |
 | **Total**             |  **274/300**  |
 
 # Table of Contents
@@ -318,7 +318,7 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [School Excursion](/Additional%20Problems/School%20Excursion.cpp)
 1. [Coin Grid](/Additional%20Problems/Coin%20Grid.cpp)
 1. Robot Path
-1. Programmers and Artists
+1. [Programmers and Artists](/Additional%20Problems/Programmers%20and%20Artists.cpp)
 1. [Course Schedule II](/Additional%20Problems/Course%20Schedule%20II.cpp)
 1. Removing Digits II
 1. Coin Arrangement
