@@ -11,11 +11,11 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Range Queries         |     19/19     |
 | Tree Algorithms       |     16/16     |
 | Mathematics           |     31/31     |
-| String Algorithms     |     16/17     |
+| String Algorithms     |     17/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
 | Additional Problems   |     52/77     |
-| **Total**             |  **274/300**  |
+| **Total**             |  **275/300**  |
 
 # Table of Contents
 
