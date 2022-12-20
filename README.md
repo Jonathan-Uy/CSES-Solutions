@@ -14,8 +14,8 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     17/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     54/77     |
-| **Total**             |  **277/300**  |
+| Additional Problems   |     55/77     |
+| **Total**             |  **278/300**  |
 
 # Table of Contents
 
@@ -294,7 +294,7 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Inverse Inversions](/Additional%20Problems/Inverse%20Inversions.cpp)
 1. [Monotone Subsequences](/Additional%20Problems/Monotone%20Subsequences.cpp)
 1. [String Reorder](/Additional%20Problems/String%20Reorder.cpp)
-1. Stack Weights
+1. [Stack Weights](/Additional%20Problems/Stack%20Weights.cpp)
 1. [Pyramid Array](/Additional%20Problems/Pyramid%20Array.cpp)
 1. [Increasing Subsequence II](/Additional%20Problems/Increasing%20Subsequence%20II.cpp)
 1. [String Removals](/Additional%20Problems/String%20Removals.cpp)
