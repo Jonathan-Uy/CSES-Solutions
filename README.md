@@ -14,8 +14,8 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     17/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     55/77     |
-| **Total**             |  **278/300**  |
+| Additional Problems   |     56/77     |
+| **Total**             |  **279/300**  |
 
 # Table of Contents
 
@@ -339,7 +339,7 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. Filling Trominos
 1. [Stick Divisions](/Additional%20Problems/Stick%20Divisions.cpp)
 1. [Coding Company](/Additional%20Problems/Coding%20Company.cpp)
-1. Flight Route Requests
+1. [Flight Route Requests](/Additional%20Problems/Flight%20Route%20Requests.cpp)
 1. Two Stacks Sorting
 1. [Tree Isomorphism II](/Additional%20Problems/Tree%20Isomorphism%20II.cpp)
 1. Forbidden Cities
