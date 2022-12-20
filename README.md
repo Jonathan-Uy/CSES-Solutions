@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of December 18th, the following number of solutions have been completed:
+Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of December 20th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -14,8 +14,8 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     17/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     53/77     |
-| **Total**             |  **276/300**  |
+| Additional Problems   |     54/77     |
+| **Total**             |  **277/300**  |
 
 # Table of Contents
 
@@ -285,7 +285,7 @@ Over 270 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Special Substrings](/Additional%20Problems/Special%20Substrings.cpp)
 1. [Permutation Inversions](/Additional%20Problems/Permutation%20Inversions.cpp)
 1. [Maximum Xor Subarray](/Additional%20Problems/Maximum%20Xor%20Subarray.cpp)
-1. Movie Festival Queries
+1. [Movie Festival Queries](/Additional%20Problems/Movie%20Festival%20Queries.cpp)
 1. [Chess Tournament](/Additional%20Problems/Chess%20Tournament.cpp)
 1. [Tree Traversals](/Additional%20Problems/Tree%20Traversals.cpp)
 1. [Network Renovation](/Additional%20Problems/Network%20Renovation.cpp)
