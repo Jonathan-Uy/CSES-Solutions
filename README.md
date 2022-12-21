@@ -14,8 +14,8 @@ Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     17/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     58/77     |
-| **Total**             |  **281/300**  |
+| Additional Problems   |     59/77     |
+| **Total**             |  **282/300**  |
 
 # Table of Contents
 
@@ -327,7 +327,7 @@ Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Grid Puzzle II](/Additional%20Problems/Grid%20Puzzle%20II.cpp)
 1. [Empty String](/Additional%20Problems/Empty%20String.cpp)
 1. [Grid Paths](/Additional%20Problems/Grid%20Paths%20III.cpp)
-1. Bit Substrings
+1. [Bit Substrings](/Additional%20Problems/Bit%20Substrings.cpp)
 1. [Reversal Sorting](/Additional%20Problems/Reversal%20Sorting.cpp)
 1. Counting Reorders
 1. [Book Shop II](/Additional%20Problems/Book%20Shop%20II.cpp)
