@@ -14,8 +14,8 @@ Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     17/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     60/77     |
-| **Total**             |  **283/300**  |
+| Additional Problems   |     61/77     |
+| **Total**             |  **284/300**  |
 
 # Table of Contents
 
@@ -305,7 +305,7 @@ Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. Letter Pair Move Game
 1. [Maximum Building I](/Additional%20Problems/Maximum%20Building%20I.cpp)
 1. [Sorting Methods](/Additional%20Problems/Sorting%20Methods.cpp)
-1. Cyclic Array
+1. [Cyclic Array](/Additional%20Problems/Cyclic%20Array.cpp)
 1. [List of Sums](/Additional%20Problems/List%20of%20Sums.cpp)
 1. [Increasing Array II](/Additional%20Problems/Increasing%20Array%20II.cpp)
 1. [Food Division](/Additional%20Problems/Food%20Division.cpp)
