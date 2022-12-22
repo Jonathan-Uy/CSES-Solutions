@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of December 21th, the following number of solutions have been completed:
+Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of December 22th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -14,8 +14,8 @@ Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     17/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     61/77     |
-| **Total**             |  **284/300**  |
+| Additional Problems   |     62/77     |
+| **Total**             |  **285/300**  |
 
 # Table of Contents
 
@@ -345,7 +345,7 @@ Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. Forbidden Cities
 1. [Area of Rectangles](/Additional%20Problems/Area%20of%20Rectangles.cpp)
 1. [Grid Completion](/Additional%20Problems/Grid%20Completion.cpp)
-1. Creating Offices
+1. [Creating Offices](/Additional%20Problems/Creating%20Offices.cpp)
 1. [Permutations II](/Additional%20Problems/Permutations%20II.cpp)
 1. [Functional Graph Distribution](/Additional%20Problems/Functional%20Graph%20Distribution.cpp)
 1. New Flight Routes
