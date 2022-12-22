@@ -90,7 +90,7 @@ int query(int u){
 }
 
 int main(){
-    scanf("%d %d", &N, &D);s
+    scanf("%d %d", &N, &D);
     for(int i = 0, a, b; i < N-1; i++){
         scanf("%d %d", &a, &b);
         G[a].push_back(b);
