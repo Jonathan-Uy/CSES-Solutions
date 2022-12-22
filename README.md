@@ -14,8 +14,8 @@ Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     17/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     62/77     |
-| **Total**             |  **285/300**  |
+| Additional Problems   |     63/77     |
+| **Total**             |  **286/300**  |
 
 # Table of Contents
 
@@ -321,7 +321,7 @@ Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Programmers and Artists](/Additional%20Problems/Programmers%20and%20Artists.cpp)
 1. [Course Schedule II](/Additional%20Problems/Course%20Schedule%20II.cpp)
 1. Removing Digits II
-1. Coin Arrangement
+1. [Coin Arrangement](/Additional%20Problems/Coin%20Arrangement.cpp)
 1. [Counting Bishops](/Additional%20Problems/Counting%20Bishops.cpp)
 1. [Grid Puzzle I](/Additional%20Problems/Grid%20Puzzle%20I.cpp)
 1. [Grid Puzzle II](/Additional%20Problems/Grid%20Puzzle%20II.cpp)
