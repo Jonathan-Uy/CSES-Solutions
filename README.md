@@ -14,8 +14,8 @@ Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     17/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     63/77     |
-| **Total**             |  **286/300**  |
+| Additional Problems   |     64/77     |
+| **Total**             |  **287/300**  |
 
 # Table of Contents
 
@@ -333,7 +333,7 @@ Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. [Book Shop II](/Additional%20Problems/Book%20Shop%20II.cpp)
 1. [Network Breakdown](/Additional%20Problems/Network%20Breakdown.cpp)
 1. [Visiting Cities](/Additional%20Problems/Visiting%20Cities.cpp)
-1. Missing Coin Sum Queries
+1. [Missing Coin Sum Queries](/Additional%20Problems/Missing%20Coin%20Sum%20Queries.cpp)
 1. [Number Grid](/Additional%20Problems/Number%20Grid.cpp)
 1. Maximum Building II
 1. Filling Trominos
