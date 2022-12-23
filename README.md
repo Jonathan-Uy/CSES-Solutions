@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of December 22th, the following number of solutions have been completed:
+Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of December 23th, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -14,8 +14,8 @@ Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms     |     17/17     |
 | Geometry              |      7/7      |
 | Advanced Techniques   |     24/24     |
-| Additional Problems   |     64/77     |
-| **Total**             |  **287/300**  |
+| Additional Problems   |     65/77     |
+| **Total**             |  **288/300**  |
 
 # Table of Contents
 
@@ -314,7 +314,7 @@ Over 280 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 1. Binary Subsequences
 1. [Tree Isomorphism I](/Additional%20Problems/Tree%20Isomorphism%20I.cpp)
 1. [Counting Sequences](/Additional%20Problems/Counting%20Sequences.cpp)
-1. Critical Cities
+1. [Critical Cities](/Additional%20Problems/Critical%20Cities.cpp)
 1. [School Excursion](/Additional%20Problems/School%20Excursion.cpp)
 1. [Coin Grid](/Additional%20Problems/Coin%20Grid.cpp)
 1. Robot Path
