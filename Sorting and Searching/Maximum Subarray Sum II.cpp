@@ -21,8 +21,7 @@ int main(){
     ll best = *S.rbegin();
     for(int i = 1; i+A <= N; i++){
         S.erase(pre[i+A-1]);
-        if(i+B <= N)
-            S.insert(pre[i+B]);
+        S.insert(pre[min(i+B, N)]);
         best = max(best, *S.rbegin()-pre[i]);
     }
 
