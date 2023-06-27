@@ -30,7 +30,7 @@ int main(){
     pos[N+1] = N+1;
 
     cnt = 1;
-    for(int i = 1, ptr; i <= N; i++){
+    for(int i = 1, ptr = 0; i <= N; i++){
         if(ptr > pos[i])
             cnt++;
         ptr = pos[i];
