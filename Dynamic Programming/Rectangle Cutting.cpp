@@ -14,6 +14,7 @@ int solve(int a, int b){
         dp[a][b] = min(dp[a][b], solve(i, b) + solve(a-i, b) + 1);
     for(int i = 1; i < b; i++)
         dp[a][b] = min(dp[a][b], solve(a, i) + solve(a, b-i) + 1);
+    dp[b][a] = dp[a][b];
     return dp[a][b];
 }
 
