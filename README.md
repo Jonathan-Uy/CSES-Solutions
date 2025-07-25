@@ -10,7 +10,7 @@ Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Graph Algorithms        |     36/36     |
 | Range Queries           |     22/25     |
 | Tree Algorithms         |     15/16     |
-| Mathematics             |     33/37     |
+| Mathematics             |     34/37     |
 | String Algorithms       |     19/21     |
 | Geometry                |     10/16     |
 | Advanced Techniques     |     24/25     |
