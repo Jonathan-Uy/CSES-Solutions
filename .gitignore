@@ -4,7 +4,8 @@
 # Script to collect problem names
 script.py
 cses_problems.json
-comparison_report.txt
+missing_files.txt
+extra_files.txt
 
 Additional Problems I/*.exe
 Additional Problems II/*.exe
