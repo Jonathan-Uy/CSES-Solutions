@@ -1,14 +1,26 @@
-*.exe
+.venv/*
+.vscode/*
 
-Additional Problems/*.exe
+# Script to collect problem names
+script.py
+cses_problems.json
+comparison_report.txt
+
+Additional Problems I/*.exe
+Additional Problems II/*.exe
+Advanced Graph Problems/*.exe
+Bitwise Operations/*.exe
+Construction Problems/*.exe
+Counting Problems/*.exe
 Dynamic Programming/*.exe
 Graph Algorithms/*.exe
+Interactive Problems/*.exe
 Introductory Problems/*.exe
 Mathematics/*.exe
 Range Queries/*.exe
 Sorting and Searching/*.exe
+Sliding Window Problems/*.exe
 String Algorithms/*.exe
 Geometry/*.exe
 Advanced Techniques/*.exe
 Tree Algorithms/*.exe
-.vscode/*
