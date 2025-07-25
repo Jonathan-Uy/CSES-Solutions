@@ -64,17 +64,17 @@ int main(){
     });
 
     for(int i = 0; i < 2*N; i++)
-        mp[movies[i].t] = i+1;
+        mp[movies[i].t] = 2*i+1;
 
-    init(1, 1, 2*N);
+    init(1, 1, 4*N);
     for(int i = 0; i < 2*N; i++){
         if(movies[i].type == 1){
             int id = movies[i].id;
             int a = mp[A[id]];
             int b = mp[B[id]];
 
-            if(maximum(1, a+1, b) < K){
-                increment(1, a, b);
+            if(maximum(1, a, b) < K){
+                increment(1, a, b-1);
                 ans++;
             }
         }
