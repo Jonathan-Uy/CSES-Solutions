@@ -12,7 +12,7 @@ Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Tree Algorithms         |     15/16     |
 | Mathematics             |     34/37     |
 | String Algorithms       |     19/21     |
-| Geometry                |     10/16     |
+| Geometry                |     11/16     |
 | Advanced Techniques     |     24/25     |
 | Sliding Window Problems |      3/11     |
 | Interactive Problems    |      2/6      |
@@ -22,4 +22,4 @@ Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Counting Problems       |      8/18     |
 | Additional Problems I   |     13/30     |
 | Additional Problems II  |     15/30     |
-| **Total**               |  **302/400**  |
+| **Total**               |  **303/400**  |
