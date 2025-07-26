@@ -5,7 +5,7 @@ Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Problem Type            | Number Solved |
 |-------------------------|:-------------:|
 | Introductory Problems   |     24/24     |
-| Sorting and Searching   |     34/35     |
+| Sorting and Searching   |     35/35     |
 | Dynamic Programming     |     21/23     |
 | Graph Algorithms        |     36/36     |
 | Range Queries           |     22/25     |
@@ -22,4 +22,4 @@ Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Counting Problems       |      8/18     |
 | Additional Problems I   |     13/30     |
 | Additional Problems II  |     15/30     |
-| **Total**               |  **303/400**  |
+| **Total**               |  **304/400**  |
