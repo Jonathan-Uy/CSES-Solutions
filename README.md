@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of `2025-07-25`, the following number of solutions have been completed:
+Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of `2025-07-26`, the following number of solutions have been completed:
 
 | Problem Type            | Number Solved |
 |-------------------------|:-------------:|
@@ -14,7 +14,7 @@ Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms       |     19/21     |
 | Geometry                |     11/16     |
 | Advanced Techniques     |     24/25     |
-| Sliding Window Problems |      3/11     |
+| Sliding Window Problems |      4/11     |
 | Interactive Problems    |      2/6      |
 | Bitwise Operations      |      3/11     |
 | Construction Problems   |      3/8      |
@@ -22,4 +22,4 @@ Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Counting Problems       |      8/18     |
 | Additional Problems I   |     13/30     |
 | Additional Problems II  |     15/30     |
-| **Total**               |  **304/400**  |
+| **Total**               |  **305/400**  |
