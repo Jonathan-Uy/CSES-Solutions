@@ -15,11 +15,11 @@ Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Geometry                |     11/16     |
 | Advanced Techniques     |     24/25     |
 | Sliding Window Problems |      6/11     |
-| Interactive Problems    |      2/6      |
+| Interactive Problems    |      3/6      |
 | Bitwise Operations      |      3/11     |
 | Construction Problems   |      3/8      |
 | Advanced Graph Problems |     16/28     |
 | Counting Problems       |      8/18     |
 | Additional Problems I   |     13/30     |
 | Additional Problems II  |     15/30     |
-| **Total**               |  **307/400**  |
+| **Total**               |  **308/400**  |
