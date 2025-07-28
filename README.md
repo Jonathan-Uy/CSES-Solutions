@@ -20,6 +20,6 @@ Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Construction Problems   |      3/8      |
 | Advanced Graph Problems |     16/28     |
 | Counting Problems       |      8/18     |
-| Additional Problems I   |     14/30     |
+| Additional Problems I   |     15/30     |
 | Additional Problems II  |     15/30     |
-| **Total**               |  **310/400**  |
+| **Total**               |  **311/400**  |
