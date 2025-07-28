@@ -1,12 +1,12 @@
 # CSES Solutions
 
-Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of `2025-07-26`, the following number of solutions have been completed:
+Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by Jonathan Uy [(nulltype)](https://cses.fi/user/22919). As of `2025-07-28`, the following number of solutions have been completed:
 
 | Problem Type            | Number Solved |
 |-------------------------|:-------------:|
 | Introductory Problems   |     24/24     |
 | Sorting and Searching   |     35/35     |
-| Dynamic Programming     |     21/23     |
+| Dynamic Programming     |     22/23     |
 | Graph Algorithms        |     36/36     |
 | Range Queries           |     22/25     |
 | Tree Algorithms         |     15/16     |
@@ -22,4 +22,4 @@ Over 300 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Counting Problems       |      8/18     |
 | Additional Problems I   |     13/30     |
 | Additional Problems II  |     15/30     |
-| **Total**               |  **308/400**  |
+| **Total**               |  **309/400**  |
