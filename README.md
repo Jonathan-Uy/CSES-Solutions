@@ -14,7 +14,7 @@ Over 310 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | String Algorithms       |     19/21     |
 | Geometry                |     11/16     |
 | Advanced Techniques     |     24/25     |
-| Sliding Window Problems |      7/11     |
+| Sliding Window Problems |      8/11     |
 | Interactive Problems    |      4/6      |
 | Bitwise Operations      |      3/11     |
 | Construction Problems   |      3/8      |
@@ -22,4 +22,4 @@ Over 310 accepted solutions to the [CSES Problem Set](https://cses.fi/problemset
 | Counting Problems       |      8/18     |
 | Additional Problems I   |     15/30     |
 | Additional Problems II  |     15/30     |
-| **Total**               |  **315/400**  |
+| **Total**               |  **316/400**  |
